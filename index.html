@@ -1,0 +1,4574 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!doctype html>
+<html lang="hu-HU">
+<head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="preload" href="/on/demandware.static/Sites-OMR-HU-Site/-/hu_HU/v1608626381145/css/style.css" as="style">
+<link rel="preload" href="/on/demandware.static/Sites-OMR-HU-Site/-/hu_HU/v1608626381145/js/app.js" as="script">
+
+
+
+<script>
+		var googleAnalyticInitialized = true;
+		var dataLayer = window.dataLayer = window.dataLayer || [];
+</script>
+
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl+'&gtm_auth=VqgDOQej9wRNycHDOabVgA&gtm_preview=env-2&gtm_cookies_win=x';f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-TLZRT8P');</script>
+    <!-- End Google Tag Manager -->
+
+<meta charset="UTF-8">
+
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Tartozékok</title>
+
+<link href="favicon.ico" rel="shortcut icon">
+
+
+
+<meta name="description" content="OMRON Healthcare">
+
+
+
+
+
+
+
+
+<script type="text/javascript">//<!--
+/* <![CDATA[ (head-active_data.js) */
+var dw = (window.dw || {});
+dw.ac = {
+    _analytics: null,
+    _events: [],
+    _category: "",
+    _searchData: "",
+    _anact: "",
+    _anact_nohit_tag: "",
+    _capture: function(configs) {
+        if (Object.prototype.toString.call(configs) === "[object Array]") {
+            configs.forEach(captureObject);
+            return;
+        }
+        dw.ac._events.push(configs);
+    },
+	capture: function() { 
+		dw.ac._capture(arguments);
+		// send to CQ as well:
+		if (window.CQuotient) {
+			window.CQuotient.trackEventsFromAC(arguments);
+		}
+	},
+    EV_PRD_SEARCHHIT: "searchhit",
+    EV_PRD_DETAIL: "detail",
+    EV_PRD_RECOMMENDATION: "recommendation",
+    EV_PRD_SETPRODUCT: "setproduct",
+    applyContext: function(context) {
+        if (typeof context === "object" && context.hasOwnProperty("category")) {
+        	dw.ac._category = context.category;
+        }
+        if (typeof context === "object" && context.hasOwnProperty("searchData")) {
+        	dw.ac._searchData = context.searchData;
+        }
+    },
+    setDWAnalytics: function(analytics) {
+        dw.ac._analytics = analytics;
+    }
+};
+/* ]]> */
+// -->
+</script><script type="text/javascript">//<!--
+/* <![CDATA[ (head-cquotient.js) */
+var CQuotient = window.CQuotient = {};
+CQuotient.clientId = 'bcwk-OMR-HU';
+CQuotient.realm = 'BCWK';
+CQuotient.siteId = 'OMR-HU';
+CQuotient.instanceType = 'prd';
+CQuotient.locale = 'hu_HU';
+CQuotient.activities = [];
+CQuotient.cqcid='';
+CQuotient.cquid='';
+CQuotient.cqeid='';
+CQuotient.cqlid='';
+CQuotient.initFromCookies = function () {
+	var ca = document.cookie.split(';');
+	for(var i=0;i < ca.length;i++) {
+	  var c = ca[i];
+	  while (c.charAt(0)==' ') c = c.substring(1,c.length);
+	  if (c.indexOf('cqcid=') == 0) {
+		CQuotient.cqcid=c.substring('cqcid='.length,c.length);
+	  } else if (c.indexOf('cquid=') == 0) {
+		  var value = c.substring('cquid='.length,c.length);
+		  if (value) {
+		  	var split_value = value.split("|", 3);
+		  	if (split_value.length > 0) {
+			  CQuotient.cquid=split_value[0];
+		  	}
+		  	if (split_value.length > 1) {
+			  CQuotient.cqeid=split_value[1];
+		  	}
+		  	if (split_value.length > 2) {
+			  CQuotient.cqlid=split_value[2];
+		  	}
+		  }
+	  }
+	}
+}
+CQuotient.getCQCookieId = function () {
+	if(window.CQuotient.cqcid == '')
+		window.CQuotient.initFromCookies();
+	return window.CQuotient.cqcid;
+};
+CQuotient.getCQUserId = function () {
+	if(window.CQuotient.cquid == '')
+		window.CQuotient.initFromCookies();
+	return window.CQuotient.cquid;
+};
+CQuotient.getCQHashedEmail = function () {
+	if(window.CQuotient.cqeid == '')
+		window.CQuotient.initFromCookies();
+	return window.CQuotient.cqeid;
+};
+CQuotient.getCQHashedLogin = function () {
+	if(window.CQuotient.cqlid == '')
+		window.CQuotient.initFromCookies();
+	return window.CQuotient.cqlid;
+};
+CQuotient.trackEventsFromAC = function (/* Object or Array */ events) {
+try {
+	if (Object.prototype.toString.call(events) === "[object Array]") {
+		events.forEach(_trackASingleCQEvent);
+	} else {
+		CQuotient._trackASingleCQEvent(events);
+	}
+} catch(err) {}
+};
+CQuotient._trackASingleCQEvent = function ( /* Object */ event) {
+	if (event && event.id) {
+		if (event.type === dw.ac.EV_PRD_DETAIL) {
+			CQuotient.trackViewProduct( {id:'', alt_id: event.id, type: 'raw_sku'} );
+		} // not handling the other dw.ac.* events currently
+	}
+};
+CQuotient.trackViewProduct = function(/* Object */ cqParamData){
+	var cq_params = {};
+	cq_params.cookieId = CQuotient.getCQCookieId();
+	cq_params.userId = CQuotient.getCQUserId();
+	cq_params.emailId = CQuotient.getCQHashedEmail();
+	cq_params.loginId = CQuotient.getCQHashedLogin();
+	cq_params.product = cqParamData.product;
+	cq_params.realm = cqParamData.realm;
+	cq_params.siteId = cqParamData.siteId;
+	cq_params.instanceType = cqParamData.instanceType;
+	cq_params.locale = CQuotient.locale;
+	
+	if(CQuotient.sendActivity) {
+		CQuotient.sendActivity(CQuotient.clientId, 'viewProduct', cq_params);
+	} else {
+		CQuotient.activities.push({activityType: 'viewProduct', parameters: cq_params});
+	}
+};
+/* ]]> */
+// -->
+</script>
+
+
+<!-- UI -->
+<link rel="stylesheet" href="css/style.css">
+
+
+<meta property="og:title" content="Tartoz&eacute;kok">
+<meta property="og:url" content="https://www.omron-healthcare.hu/hu/tartozekok">
+<meta property="og:type" content="website">
+<meta property="og:description" content="OMRON Healthcare">
+<meta property="og:image" content="">
+
+
+
+
+
+
+
+
+
+	
+    
+      
+        
+        <link rel="alternate" href="https://www.omron-healthcare.be/en/accessories" hreflang="en-be">
+      
+        
+        <link rel="alternate" href="https://www.omron-healthcare.be/fr/accessoires" hreflang="fr-be">
+      
+        
+        <link rel="alternate" href="https://www.omron-healthcare.be/nl/accessoires" hreflang="nl-be">
+      
+    
+	
+    
+      
+        
+        <link rel="alternate" href="https://www.omron-healthcare.bg/bg/aksesoari" hreflang="bg-bg">
+      
+        
+        <link rel="alternate" href="https://www.omron-healthcare.bg/en/accessories" hreflang="en-bg">
+      
+    
+	
+    
+      
+        
+        <link rel="alternate" href="https://www.omron-healthcare.ch/en/accessories" hreflang="en-ch">
+      
+        
+        <link rel="alternate" href="https://www.omron-healthcare.ch/fr/accessoires" hreflang="fr-ch">
+      
+        
+        <link rel="alternate" href="https://www.omron-healthcare.ch/de/zubehoer" hreflang="de-ch">
+      
+        
+        <link rel="alternate" href="https://www.omron-healthcare.ch/it/accessori" hreflang="it-ch">
+      
+    
+	
+    
+      
+        
+        <link rel="alternate" href="https://www.omron-healthcare.de/de/zubehoer" hreflang="de-de">
+      
+        
+        <link rel="alternate" href="https://www.omron-healthcare.de/en/accessories" hreflang="en-de">
+      
+    
+	
+    
+      
+        
+        <link rel="alternate" href="https://www.omron-healthcare.es/en/accessories" hreflang="en-es">
+      
+        
+        <link rel="alternate" href="https://www.omron-healthcare.es/es/accesorios" hreflang="es-es">
+      
+    
+	
+    
+      <link rel="alternate" href="https://www.omron-healthcare.com/eu/accessories" hreflang="x-default">
+      
+        
+        
+          
+        
+        <link rel="alternate" href="https://www.omron-healthcare.com/eu/accessories" hreflang="en">
+      
+    
+	
+    
+      
+        
+        <link rel="alternate" href="https://www.omron-healthcare.fi/en/accessories" hreflang="en-fi">
+      
+        
+        <link rel="alternate" href="https://www.omron-healthcare.fi/fi/lisavarusteet" hreflang="fi-fi">
+      
+    
+	
+    
+      
+        
+        <link rel="alternate" href="https://www.omron-healthcare.fr/en/accessories" hreflang="en-fr">
+      
+        
+        <link rel="alternate" href="https://www.omron-healthcare.fr/fr/accessoires" hreflang="fr-fr">
+      
+    
+	
+    
+      
+        
+        <link rel="alternate" href="https://www.omron-healthcare.co.uk/accessories" hreflang="en-gb">
+      
+    
+	
+    
+      
+        
+        <link rel="alternate" href="https://www.omron-healthcare.it/it/accessori" hreflang="it-it">
+      
+        
+        <link rel="alternate" href="https://www.omron-healthcare.it/en/accessories" hreflang="en-it">
+      
+    
+	
+    
+      
+        
+        <link rel="alternate" href="https://www.omron-healthcare.hu/en/accessories" hreflang="en-hu">
+      
+        
+        <link rel="alternate" href="https://www.omron-healthcare.hu/hu/tartozekok" hreflang="hu-hu">
+      
+    
+	
+    
+      
+        
+        <link rel="alternate" href="https://www.omron-healthcare.ng/accessories" hreflang="en-ng">
+      
+    
+	
+    
+      
+        
+        <link rel="alternate" href="https://www.omron-healthcare.nl/nl/accessoires" hreflang="nl-nl">
+      
+        
+        <link rel="alternate" href="https://www.omron-healthcare.nl/en/accessories" hreflang="en-nl">
+      
+    
+	
+    
+      
+        
+        <link rel="alternate" href="https://www.omron-healthcare.pl/en/accessories" hreflang="en-pl">
+      
+        
+        <link rel="alternate" href="https://www.omron-healthcare.pl/pl/akcesoria" hreflang="pl-pl">
+      
+    
+	
+    
+      
+        
+        <link rel="alternate" href="https://www.omron-healthcare.pt/en/accessories" hreflang="en-pt">
+      
+        
+        <link rel="alternate" href="https://www.omron-healthcare.pt/pt/acessorios" hreflang="pt-pt">
+      
+    
+	
+    
+      
+        
+        <link rel="alternate" href="https://www.omron-healthcare.ro/en/accessories" hreflang="en-ro">
+      
+        
+        <link rel="alternate" href="https://www.omron-healthcare.ro/ro/accesorii" hreflang="ro-ro">
+      
+    
+	
+    
+      
+        
+        <link rel="alternate" href="https://www.omron-healthcare.com/en-tr/accessories" hreflang="en-tr">
+      
+        
+        <link rel="alternate" href="https://www.omron-healthcare.com/tr-tr/aksesuarlar" hreflang="tr-tr">
+      
+    
+	
+    
+      
+        
+        <link rel="alternate" href="https://www.omron-healthcare.co.za/accessories" hreflang="en-za">
+      
+    
+	
+	
+		<link rel="canonical" href="https://www.omron-healthcare.hu/hu/tartozekok">
+	
+
+
+
+
+
+</head>
+<body class="">
+
+
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="ns.html" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+<div id="wrapper" class="pt_product-search-result">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	 
+
+
+	
+
+
+ 
+	
+
+	 
+
+	
+<div class="sticky-header-wrapper sticky">
+<header class="main-header-container">
+
+
+
+<div id="browser-check" class="browser-check">
+<noscript>
+<style media="screen">
+.sticky-header-wrapper .main-header-container {
+position: relative;
+}
+.sticky-header-wrapper {
+height: 150px;
+}
+</style>
+<div class="browser-compatibility-alert">
+<div class="message">
+<i class="iconfont-warning"></i>
+<p class="browser-error">A b&ouml;ng&eacute;sző JavaScript t&aacute;mogat&aacute;si funkci&oacute;ja ki van kapcsolva. A weboldal teljes funkcionalit&aacute;s&aacute;hoz enged&eacute;lyezze a JavaScript t&aacute;mogat&aacute;st.</p>
+</div>
+</div>
+</noscript>
+</div>
+
+<div class="main-navigation maxcolumn">
+
+<button class="menu-toggle js-menu-toggle">
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<div class="visually-hidden">Menu</div>
+</button>
+<h1 class="primary-logo" title="OMRON Healthcare">
+<a class="iconfont-OMRON-Logo" href="https://www.omron-healthcare.hu/hu/kezdolapra" title="OMRON Healthcare">
+<span class="visually-hidden">OMRON Healthcare</span>
+</a>
+</h1>
+<nav class="main-navigation-container" role="navigation">
+<div class="menu-wrapper">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<ul class="menu-category level-1">
+
+
+
+
+
+
+<li class="has-sub-menu">
+<a href="https://www.omron-healthcare.hu/hu/termekek">
+Term&eacute;kek
+</a>
+
+
+
+
+
+<div class="level-2">
+<div class="list-wrapper">
+<ul class="thumbnail-items">
+
+
+<li data-gtm-object="{&quot;category&quot;:&quot;Primary Navigation&quot;,&quot;action&quot;:&quot;products&quot;,&quot;label&quot;:&quot;blood-pressure-monitor&quot;}">
+<a class="js-main-nav-link" href="https://www.omron-healthcare.hu/hu/kategoria/vernyomasmerok">
+
+<figure class="thumbnail-image">
+<picture>
+<img class="lazyload" src="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 1 1%22 /%3E" data-srcset="https://www.omron-healthcare.hu/on/demandware.static/-/Sites-storefront-omron-hu/default/dw42f1fa2b/Icons%20mobile%20menu/ico-blood.png" data-sizes="auto" alt="V&eacute;rnyom&aacute;sm&eacute;rők" title="V&eacute;rnyom&aacute;sm&eacute;rők">
+</picture>
+</figure>
+
+
+<figure class="main-image">
+<picture>
+<img class="lazyload" src="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 1 1%22 /%3E" data-srcset="https://www.omron-healthcare.hu/on/demandware.static/-/Sites-storefront-omron-hu/default/dw6b1f0530/Category%20images/Hero%20images%20-%20Thumbnails/Navigation%20-%20BPM@2x.jpg" data-sizes="auto" alt="V&eacute;rnyom&aacute;sm&eacute;rők" title="V&eacute;rnyom&aacute;sm&eacute;rők">
+</picture>
+</figure>
+
+<span>
+V&eacute;rnyom&aacute;sm&eacute;rők
+</span>
+</a>
+</li>
+
+
+
+<li data-gtm-object="{&quot;category&quot;:&quot;Primary Navigation&quot;,&quot;action&quot;:&quot;products&quot;,&quot;label&quot;:&quot;nebuliser&quot;}">
+<a class="js-main-nav-link" href="https://www.omron-healthcare.hu/hu/kategoria/inhalatorok">
+
+<figure class="thumbnail-image">
+<picture>
+<img class="lazyload" src="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 1 1%22 /%3E" data-srcset="https://www.omron-healthcare.hu/on/demandware.static/-/Sites-storefront-omron-hu/default/dw8757a4e1/Icons%20mobile%20menu/ico-nebu.png" data-sizes="auto" alt="Inhal&aacute;torok" title="Inhal&aacute;torok">
+</picture>
+</figure>
+
+
+<figure class="main-image">
+<picture>
+<img class="lazyload" src="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 1 1%22 /%3E" data-srcset="https://www.omron-healthcare.hu/on/demandware.static/-/Sites-storefront-omron-hu/default/dw01ec5941/Category%20images/Hero%20images%20-%20Thumbnails/Navigation%20-%20Nebulizers@2x.jpg" data-sizes="auto" alt="Inhal&aacute;torok" title="Inhal&aacute;torok">
+</picture>
+</figure>
+
+<span>
+Inhal&aacute;torok
+</span>
+</a>
+</li>
+
+
+
+<li data-gtm-object="{&quot;category&quot;:&quot;Primary Navigation&quot;,&quot;action&quot;:&quot;products&quot;,&quot;label&quot;:&quot;pain-reliever&quot;}">
+<a class="js-main-nav-link" href="https://www.omron-healthcare.hu/hu/kategoria/fajdalomcsillapitok">
+
+<figure class="thumbnail-image">
+<picture>
+<img class="lazyload" src="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 1 1%22 /%3E" data-srcset="https://www.omron-healthcare.hu/on/demandware.static/-/Sites-storefront-omron-hu/default/dw83ba552b/Icons%20mobile%20menu/ico-pain.png" data-sizes="auto" alt="F&aacute;jdalomcsillap&iacute;t&oacute;k" title="F&aacute;jdalomcsillap&iacute;t&oacute;k">
+</picture>
+</figure>
+
+
+<figure class="main-image">
+<picture>
+<img class="lazyload" src="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 1 1%22 /%3E" data-srcset="https://www.omron-healthcare.hu/on/demandware.static/-/Sites-storefront-omron-hu/default/dw40fe83a9/Category%20images/Hero%20images%20-%20Thumbnails/Navigation_Pain%20relievers_2x_Alt.jpg" data-sizes="auto" alt="F&aacute;jdalomcsillap&iacute;t&oacute;k" title="F&aacute;jdalomcsillap&iacute;t&oacute;k">
+</picture>
+</figure>
+
+<span>
+F&aacute;jdalomcsillap&iacute;t&oacute;k
+</span>
+</a>
+</li>
+
+
+
+<li data-gtm-object="{&quot;category&quot;:&quot;Primary Navigation&quot;,&quot;action&quot;:&quot;products&quot;,&quot;label&quot;:&quot;weight-management&quot;}">
+<a class="js-main-nav-link" href="https://www.omron-healthcare.hu/hu/kategoria/digitalis-merlegek">
+
+<figure class="thumbnail-image">
+<picture>
+<img class="lazyload" src="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 1 1%22 /%3E" data-srcset="https://www.omron-healthcare.hu/on/demandware.static/-/Sites-storefront-omron-hu/default/dw71306728/Icons%20mobile%20menu/ico-bodymon.png" data-sizes="auto" alt="Digit&aacute;lis m&eacute;rlegek" title="Digit&aacute;lis m&eacute;rlegek">
+</picture>
+</figure>
+
+
+<figure class="main-image">
+<picture>
+<img class="lazyload" src="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 1 1%22 /%3E" data-srcset="https://www.omron-healthcare.hu/on/demandware.static/-/Sites-storefront-omron-hu/default/dw9038f293/Category%20images/Hero%20images%20-%20Thumbnails/Navigation%20-%20Weight%20monitor@2x.jpg" data-sizes="auto" alt="Digit&aacute;lis m&eacute;rlegek" title="Digit&aacute;lis m&eacute;rlegek">
+</picture>
+</figure>
+
+<span>
+Digit&aacute;lis m&eacute;rlegek
+</span>
+</a>
+</li>
+
+
+
+<li data-gtm-object="{&quot;category&quot;:&quot;Primary Navigation&quot;,&quot;action&quot;:&quot;products&quot;,&quot;label&quot;:&quot;electronic-fever-thermometer&quot;}">
+<a class="js-main-nav-link" href="https://www.omron-healthcare.hu/hu/kategoria/homerok">
+
+<figure class="thumbnail-image">
+<picture>
+<img class="lazyload" src="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 1 1%22 /%3E" data-srcset="https://www.omron-healthcare.hu/on/demandware.static/-/Sites-storefront-omron-hu/default/dwec700db3/Icons%20mobile%20menu/ico-therm.png" data-sizes="auto" alt="Hőm&eacute;rők" title="Hőm&eacute;rők">
+</picture>
+</figure>
+
+
+<figure class="main-image">
+<picture>
+<img class="lazyload" src="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 1 1%22 /%3E" data-srcset="https://www.omron-healthcare.hu/on/demandware.static/-/Sites-storefront-omron-hu/default/dw483b6bd6/Category%20images/Hero%20images%20-%20Thumbnails/Navigation%20-%20Thermometer@2x.jpg" data-sizes="auto" alt="Hőm&eacute;rők" title="Hőm&eacute;rők">
+</picture>
+</figure>
+
+<span>
+Hőm&eacute;rők
+</span>
+</a>
+</li>
+
+
+</ul>
+</div>
+</div>
+
+
+</li>
+
+
+
+
+
+<li class="has-sub-menu">
+<a href="https://www.omron-healthcare.hu/hu/tartozekok">
+Tartoz&eacute;kok
+</a>
+
+
+
+
+
+<div class="level-2">
+<div class="list-wrapper">
+<ul class="list-items">
+
+
+<li data-gtm-object="{&quot;category&quot;:&quot;Primary Navigation&quot;,&quot;action&quot;:&quot;accessories&quot;,&quot;label&quot;:&quot;blood-pressure-monitor-accessories&quot;}">
+<a class="js-main-nav-link" href="https://www.omron-healthcare.hu/hu/vernyomasmero-tartozekok">
+
+
+<figure class="main-image">
+<picture>
+<img class="lazyload" src="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 1 1%22 /%3E" data-srcset="https://www.omron-healthcare.hu/on/demandware.static/-/Sites-storefront-omron-hu/default/dw6b1f0530/Category%20images/Hero%20images%20-%20Thumbnails/Navigation%20-%20BPM@2x.jpg" data-sizes="auto" alt="V&eacute;rnyom&aacute;sm&eacute;rő tartoz&eacute;kok" title="V&eacute;rnyom&aacute;sm&eacute;rő tartoz&eacute;kok">
+</picture>
+</figure>
+
+<span>
+V&eacute;rnyom&aacute;sm&eacute;rő tartoz&eacute;kok
+</span>
+</a>
+</li>
+
+
+
+<li data-gtm-object="{&quot;category&quot;:&quot;Primary Navigation&quot;,&quot;action&quot;:&quot;accessories&quot;,&quot;label&quot;:&quot;nebuliser-accessories&quot;}">
+<a class="js-main-nav-link" href="https://www.omron-healthcare.hu/hu/inhalator-tartozekok">
+
+
+<figure class="main-image">
+<picture>
+<img class="lazyload" src="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 1 1%22 /%3E" data-srcset="https://www.omron-healthcare.hu/on/demandware.static/-/Sites-storefront-omron-hu/default/dw01ec5941/Category%20images/Hero%20images%20-%20Thumbnails/Navigation%20-%20Nebulizers@2x.jpg" data-sizes="auto" alt="Inhal&aacute;tor tartoz&eacute;kok" title="Inhal&aacute;tor tartoz&eacute;kok">
+</picture>
+</figure>
+
+<span>
+Inhal&aacute;tor tartoz&eacute;kok
+</span>
+</a>
+</li>
+
+
+
+<li data-gtm-object="{&quot;category&quot;:&quot;Primary Navigation&quot;,&quot;action&quot;:&quot;accessories&quot;,&quot;label&quot;:&quot;pain-reliever-accessories&quot;}">
+<a class="js-main-nav-link" href="https://www.omron-healthcare.hu/hu/fajdalomcsillapito-tartozekok">
+
+
+<figure class="main-image">
+<picture>
+<img class="lazyload" src="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 1 1%22 /%3E" data-srcset="https://www.omron-healthcare.hu/on/demandware.static/-/Sites-storefront-omron-hu/default/dw40fe83a9/Category%20images/Hero%20images%20-%20Thumbnails/Navigation_Pain%20relievers_2x_Alt.jpg" data-sizes="auto" alt="F&aacute;jdalomcsillap&iacute;t&oacute; tartoz&eacute;kok" title="F&aacute;jdalomcsillap&iacute;t&oacute; tartoz&eacute;kok">
+</picture>
+</figure>
+
+<span>
+F&aacute;jdalomcsillap&iacute;t&oacute; tartoz&eacute;kok
+</span>
+</a>
+</li>
+
+
+
+<li data-gtm-object="{&quot;category&quot;:&quot;Primary Navigation&quot;,&quot;action&quot;:&quot;accessories&quot;,&quot;label&quot;:&quot;electronic-fever-thermometer-accessories&quot;}">
+<a class="js-main-nav-link" href="https://www.omron-healthcare.hu/hu/homero-tartozekok">
+
+
+<figure class="main-image">
+<picture>
+<img class="lazyload" src="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 1 1%22 /%3E" data-srcset="https://www.omron-healthcare.hu/on/demandware.static/-/Sites-storefront-omron-hu/default/dw483b6bd6/Category%20images/Hero%20images%20-%20Thumbnails/Navigation%20-%20Thermometer@2x.jpg" data-sizes="auto" alt="Hőm&eacute;rő tartoz&eacute;kok" title="Hőm&eacute;rő tartoz&eacute;kok">
+</picture>
+</figure>
+
+<span>
+Hőm&eacute;rő tartoz&eacute;kok
+</span>
+</a>
+</li>
+
+
+</ul>
+</div>
+</div>
+
+
+</li>
+
+
+
+
+
+
+
+
+<!-- dwMarker="content" dwContentID="7d4161e19a684eec6578a7dcb5" -->
+	
+		
+			<li data-gtm-object="{&quot;category&quot;:&quot;Primary Navigation&quot;,&quot;action&quot;:&quot;non-catalog-primary-nav-1&quot;}">
+				<a class="js-main-nav-link" href="/hu/egeszseg-es-eletmod">
+					Eg&eacute;szs&eacute;g &eacute;s &eacute;letm&oacute;d
+				</a>
+			</li>
+		
+			<li data-gtm-object="{&quot;category&quot;:&quot;Primary Navigation&quot;,&quot;action&quot;:&quot;non-catalog-primary-nav-2&quot;}">
+				<a class="js-main-nav-link" href="/hu/tamogatas">
+					T&aacute;mogat&aacute;s
+				</a>
+			</li>
+		
+			<li data-gtm-object="{&quot;category&quot;:&quot;Primary Navigation&quot;,&quot;action&quot;:&quot;non-catalog-primary-nav-3&quot;}">
+				<a class="js-main-nav-link" href="/hu/general/news-%26-events/coronavirus-covid-19-corporate-statement.html">
+					COVID-19 int&eacute;zked&eacute;seink
+				</a>
+			</li>
+		
+	
+
+
+
+</ul>
+
+
+<!-- utility user menu -->
+<ul class="menu-utility-user">
+
+
+
+
+
+
+
+
+
+<li class="user-info" data-gtm-object="{&quot;category&quot;:&quot;Utility User Menu&quot;,&quot;action&quot;:&quot;user-account-utility-menu&quot;}">
+<a class="user-account js-header-icon-link" href="https://www.omron-healthcare.hu/hu/szemelyes-adatok" title="User: Login /  Register">
+<i class="iconfont-user"></i>
+<span>Login /  Register</span>
+</a>
+</li>
+
+
+<li class="toggle-search">
+<a href="javascript:void(0);" class="search-btn js-search-btn" aria-label="Keres&eacute;s"><i class="iconfont-search"></i></a>
+</li>
+</ul>
+
+</div>
+</nav>
+
+<div class="toggle-search display-desktop">
+<a href="javascript:void(0);" class="search-btn js-search-btn" aria-label="Keres&eacute;s"><i class="iconfont-search"></i></a>
+</div>
+<div class="minicart js-minicart">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Report any requested source code -->
+
+<!-- Report the active source code -->
+
+
+
+
+
+</div>
+</div>
+</header>
+<div class="search-flyout-wrapper hidden">
+<!-- Search input -->
+<div class="search-input search-flyout-block">
+
+<form role="search" action="/hu/kereses" method="get" name="simpleSearch" class="search-header-form">
+<fieldset class="search-header-fieldset">
+<div class="search-header-row form-row">
+<label for="q" class="search-header-label">&Iacute;rja be a kulcssz&oacute;t</label>
+<input type="text" id="q" name="q" value="" class="search-header-input js-search-header-input" placeholder="&Iacute;rja be a kulcssz&oacute;t">
+</div>
+<input type="hidden" name="lang" value="hu_HU">
+<button type="submit" aria-label="Keres&eacute;s" class="search-header-submit-btn"><i class="iconfont-search"></i></button>
+</fieldset>
+</form>
+
+</div><!-- Search input -->
+<!-- Suggested products -->
+<div class="search-suggested-products search-flyout-block"></div>
+<!-- Suggested products -->
+<!-- Suggested pages -->
+<div class="search-suggested-pages">
+<h3 class="search-flyout-title">Gyorshivatkoz&aacute;sok</h3>
+
+
+
+
+
+	
+		<ul class="search-flyout-list">
+			
+				<li class="search-flyout-item">
+					<a href="/hu/egeszseg-es-eletmod">
+						Eg&eacute;szs&eacute;g &eacute;s &eacute;letm&oacute;d
+					</a>
+				</li>
+			
+				<li class="search-flyout-item">
+					<a href="/hu/tamogatas">
+						T&aacute;mogat&aacute;s
+					</a>
+				</li>
+			
+		</ul>
+	
+
+
+</div>
+<!-- Suggested pages -->
+</div>
+
+</div>
+<div class="overlay white" id="js-overlay"></div>
+<!-- /header -->
+
+<div id="main" role="main" class="main">
+
+
+
+
+<div class="category-top-banner category-top-banner--plp">
+<div class="category-top-banner__inner">
+<div class="category-top-banner__content">
+<figure class="category-top-banner__icon">
+
+</figure>
+<hgroup class="category-top-banner__titles">
+<h1>Tartozékok</h1>
+</hgroup>
+</div>
+</div><!-- .color-block -->
+</div><!-- .intro-container -->
+
+
+
+<div class="plp-content-wrapper">
+<div class="plp-content">
+
+<div class="sort-header">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="sort-header">
+
+<div class="no-results">
+<h2>
+Nincs tal&aacute;lat a term&eacute;kek k&ouml;z&ouml;tt
+</h2>
+<p>
+A kiv&aacute;lasztott szűrőfelt&eacute;telek kombin&aacute;ci&oacute;j&aacute;ra nincs term&eacute;k tal&aacute;lat.
+</p>
+<a href="https://www.omron-healthcare.hu/on/demandware.store/Sites-OMR-HU-Site/hu_HU/Search-Show?cgid=accessories" class="js-btn-clear-all-refinement btn2">Az összes szűrő törlése</a>
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+<form action="/hu/tartozekok" method="post" name="Product-Sorting-Options" class="js-plp-sorting-options-container plp-sorting-options-container">
+<span class="select-wrap">
+<select id="grid-sort-header" class="">
+
+
+<option value="https://www.omron-healthcare.hu/hu/tartozekok?srule=most-relevant&amp;start=0&amp;sz=100" selected>Legrelev&aacute;nsabb</option>
+
+</select>
+<span class="icon-arrow"></span><span class="border-block"></span></span>
+</form>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="search-result-content js-search-result-content">
+
+
+
+<ul id="search-result-items" class="search-result-items tiles-container hide-compare ">
+
+
+<li class="grid-tile">
+
+<script type="text/javascript">//<!--
+/* <![CDATA[ (viewCategoryProduct-active_data.js) */
+(function(){
+try {
+	if (dw.ac) {
+		var search_params = {};
+		search_params.persd = 'false';
+		search_params.refs = '[{\"name\":\"Category\",\"value\":\"accessories\"}]';
+		search_params.sort = 'most-relevant';
+		search_params.imageUUID = '';
+		search_params.searchID = 'a887ee35-5769-4139-96b1-a01ad68f8c76';
+		search_params.locale = 'hu_HU';
+		search_params.queryLocale = 'hu_HU';
+		search_params.showProducts = 'true';
+		dw.ac.applyContext({category: "accessories", searchData: search_params});
+		if (typeof dw.ac._scheduleDataSubmission === "function") {
+			dw.ac._scheduleDataSubmission();
+		}
+	}
+} catch(err) {}
+})();
+/* ]]> */
+// -->
+</script>
+<script type="text/javascript">//<!--
+/* <![CDATA[ (viewProduct-active_data.js) */
+dw.ac._capture({id: "Long_life_Pads", type: "searchhit"});
+/* ]]> */
+// -->
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="product-tile js-product-tile" id="aed1bcd72117f9f3e6571f4480" data-itemid="Long_life_Pads" data-name="Tartós tapadópárnák" data-price="0" data-brand="OMRON" data-category="pain-reliever-accessories" data-currencycode="HUF">
+
+
+<section class="product-tile__left">
+<figure class="product-image"><!-- dwMarker="product" dwContentID="aed1bcd72117f9f3e6571f4480" -->
+
+<a href="/hu/fajdalomcsillapito-tartozekok/Long_life_Pads.html" title="Go to Product: Tart&oacute;s tapad&oacute;p&aacute;rn&aacute;k">
+
+
+
+
+
+
+
+
+
+
+<picture>
+<source data-srcset="https://www.omron-healthcare.hu/dw/image/v2/BCWK_PRD/on/demandware.static/-/Sites-master-catalog/default/dwb1dd209d/large/Long_life_Pads/Long_life_Pads_01-1.jpg?sw=600&amp;sh=600&amp;sm=fit&amp;q=100" media="--large">
+<source data-srcset="https://www.omron-healthcare.hu/dw/image/v2/BCWK_PRD/on/demandware.static/-/Sites-master-catalog/default/dwb1dd209d/large/Long_life_Pads/Long_life_Pads_01-1.jpg?sw=240&amp;sh=240&amp;sm=fit&amp;q=100" media="--medium">
+<img class="lazyload" src="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 1 1%22 /%3E" data-srcset="https://www.omron-healthcare.hu/dw/image/v2/BCWK_PRD/on/demandware.static/-/Sites-master-catalog/default/dwb1dd209d/large/Long_life_Pads/Long_life_Pads_01-1.jpg?sw=179&amp;sh=179&amp;sm=fit&amp;q=100" alt="Tart&oacute;s tapad&oacute;p&aacute;rn&aacute;k" title="Tart&oacute;s tapad&oacute;p&aacute;rn&aacute;k">
+</picture>
+</a>
+</figure>
+
+
+
+
+
+
+
+</section>
+<section class="product-tile__right">
+<div class="product-properties">
+
+
+<div class="product-name">
+<a href="/hu/fajdalomcsillapito-tartozekok/Long_life_Pads.html" title="Go to Product: Tart&oacute;s tapad&oacute;p&aacute;rn&aacute;k">
+Tart&oacute;s tapad&oacute;p&aacute;rn&aacute;k
+</a>
+</div>
+
+<div class="item-code">
+4928818-7
+</div>
+
+
+
+
+
+
+
+<ul class="product-usp">
+
+<li><span style="font-size:15px;color:#000000;font-weight:normal;text-decoration:none;font-family:'docs-Calibri';font-style:normal;text-decoration-skip-ink:none;">Lemosható, akár 150 alkalommal is használható tartós tapadópárna</span></li>
+
+
+<li><span style="font-size:15px;color:#000000;font-weight:normal;text-decoration:none;font-family:'docs-Calibri';font-style:normal;text-decoration-skip-ink:none;">Tartalmazza az elektródatartót</span></li>
+
+
+</ul>
+
+
+</div>
+
+
+
+
+
+
+
+
+</section>
+</div>
+
+
+
+</li>
+
+
+<li class="grid-tile">
+
+<script type="text/javascript">//<!--
+/* <![CDATA[ (viewCategoryProduct-active_data.js) */
+(function(){
+try {
+	if (dw.ac) {
+		var search_params = {};
+		search_params.persd = 'false';
+		search_params.refs = '[{\"name\":\"Category\",\"value\":\"accessories\"}]';
+		search_params.sort = 'most-relevant';
+		search_params.imageUUID = '';
+		search_params.searchID = 'a887ee35-5769-4139-96b1-a01ad68f8c76';
+		search_params.locale = 'hu_HU';
+		search_params.queryLocale = 'hu_HU';
+		search_params.showProducts = 'true';
+		dw.ac.applyContext({category: "accessories", searchData: search_params});
+		if (typeof dw.ac._scheduleDataSubmission === "function") {
+			dw.ac._scheduleDataSubmission();
+		}
+	}
+} catch(err) {}
+})();
+/* ]]> */
+// -->
+</script>
+<script type="text/javascript">//<!--
+/* <![CDATA[ (viewProduct-active_data.js) */
+dw.ac._capture({id: "Long_life_Pads_01", type: "searchhit"});
+/* ]]> */
+// -->
+</script>
+
+
+
+</li>
+
+
+
+	 
+
+	
+
+<li class="grid-tile">
+
+<script type="text/javascript">//<!--
+/* <![CDATA[ (viewCategoryProduct-active_data.js) */
+(function(){
+try {
+	if (dw.ac) {
+		var search_params = {};
+		search_params.persd = 'false';
+		search_params.refs = '[{\"name\":\"Category\",\"value\":\"accessories\"}]';
+		search_params.sort = 'most-relevant';
+		search_params.imageUUID = '';
+		search_params.searchID = 'a887ee35-5769-4139-96b1-a01ad68f8c76';
+		search_params.locale = 'hu_HU';
+		search_params.queryLocale = 'hu_HU';
+		search_params.showProducts = 'true';
+		dw.ac.applyContext({category: "accessories", searchData: search_params});
+		if (typeof dw.ac._scheduleDataSubmission === "function") {
+			dw.ac._scheduleDataSubmission();
+		}
+	}
+} catch(err) {}
+})();
+/* ]]> */
+// -->
+</script>
+<script type="text/javascript">//<!--
+/* <![CDATA[ (viewProduct-active_data.js) */
+dw.ac._capture({id: "Intelli_Wrap_Cuff", type: "searchhit"});
+/* ]]> */
+// -->
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="product-tile js-product-tile" id="9140f70ae8eca24c104a4ce6eb" data-itemid="Intelli_Wrap_Cuff" data-name="Okos mandzsetta" data-price="0" data-brand="OMRON" data-category="blood-pressure-monitor-accessories" data-currencycode="HUF">
+
+
+<section class="product-tile__left">
+<figure class="product-image"><!-- dwMarker="product" dwContentID="9140f70ae8eca24c104a4ce6eb" -->
+
+<a href="/hu/vernyomasmero-tartozekok/Intelli_Wrap_Cuff.html" title="Go to Product: Okos mandzsetta">
+
+
+
+
+
+
+
+
+
+
+<picture>
+<source data-srcset="https://www.omron-healthcare.hu/dw/image/v2/BCWK_PRD/on/demandware.static/-/Sites-master-catalog/default/dw475983f0/large/Intelli_Wrap_Cuff/Intelli_Wrap_Cuff_01-1.jpg?sw=600&amp;sh=600&amp;sm=fit&amp;q=100" media="--large">
+<source data-srcset="https://www.omron-healthcare.hu/dw/image/v2/BCWK_PRD/on/demandware.static/-/Sites-master-catalog/default/dw475983f0/large/Intelli_Wrap_Cuff/Intelli_Wrap_Cuff_01-1.jpg?sw=240&amp;sh=240&amp;sm=fit&amp;q=100" media="--medium">
+<img class="lazyload" src="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 1 1%22 /%3E" data-srcset="https://www.omron-healthcare.hu/dw/image/v2/BCWK_PRD/on/demandware.static/-/Sites-master-catalog/default/dw475983f0/large/Intelli_Wrap_Cuff/Intelli_Wrap_Cuff_01-1.jpg?sw=179&amp;sh=179&amp;sm=fit&amp;q=100" alt="Okos mandzsetta" title="Okos mandzsetta">
+</picture>
+</a>
+</figure>
+
+
+
+
+
+
+
+</section>
+<section class="product-tile__right">
+<div class="product-properties">
+
+
+<div class="product-name">
+<a href="/hu/vernyomasmero-tartozekok/Intelli_Wrap_Cuff.html" title="Go to Product: Okos mandzsetta">
+Okos mandzsetta
+</a>
+</div>
+
+<div class="item-code">
+HEM-FL31-E
+</div>
+
+
+
+
+
+
+
+<ul class="product-usp">
+
+<li>Okos mandzsetta OMRON vérnyomásmérőkhöz</li>
+
+
+<li>22-42 cm karkörméretre alkalmas</li>
+
+
+</ul>
+
+
+</div>
+
+
+
+
+
+
+
+
+</section>
+</div>
+
+
+
+</li>
+
+
+<li class="grid-tile">
+
+<script type="text/javascript">//<!--
+/* <![CDATA[ (viewCategoryProduct-active_data.js) */
+(function(){
+try {
+	if (dw.ac) {
+		var search_params = {};
+		search_params.persd = 'false';
+		search_params.refs = '[{\"name\":\"Category\",\"value\":\"accessories\"}]';
+		search_params.sort = 'most-relevant';
+		search_params.imageUUID = '';
+		search_params.searchID = 'a887ee35-5769-4139-96b1-a01ad68f8c76';
+		search_params.locale = 'hu_HU';
+		search_params.queryLocale = 'hu_HU';
+		search_params.showProducts = 'true';
+		dw.ac.applyContext({category: "accessories", searchData: search_params});
+		if (typeof dw.ac._scheduleDataSubmission === "function") {
+			dw.ac._scheduleDataSubmission();
+		}
+	}
+} catch(err) {}
+})();
+/* ]]> */
+// -->
+</script>
+<script type="text/javascript">//<!--
+/* <![CDATA[ (viewProduct-active_data.js) */
+dw.ac._capture({id: "Wide_Range_Cuff", type: "searchhit"});
+/* ]]> */
+// -->
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="product-tile js-product-tile" id="3e6495e551974a213a18a18025" data-itemid="Wide_Range_Cuff" data-name="Állítható mandzsetta" data-price="0" data-brand="OMRON" data-category="blood-pressure-monitor-accessories" data-currencycode="HUF">
+
+
+<section class="product-tile__left">
+<figure class="product-image"><!-- dwMarker="product" dwContentID="3e6495e551974a213a18a18025" -->
+
+<a href="/hu/vernyomasmero-tartozekok/Wide_Range_Cuff.html" title="Go to Product: &Aacute;ll&iacute;that&oacute; mandzsetta">
+
+
+
+
+
+
+
+
+
+
+<picture>
+<source data-srcset="https://www.omron-healthcare.hu/dw/image/v2/BCWK_PRD/on/demandware.static/-/Sites-master-catalog/default/dw4503eab6/large/Wide_Range_Cuff/Wide_Range_Cuff_01-1.jpg?sw=600&amp;sh=600&amp;sm=fit&amp;q=100" media="--large">
+<source data-srcset="https://www.omron-healthcare.hu/dw/image/v2/BCWK_PRD/on/demandware.static/-/Sites-master-catalog/default/dw4503eab6/large/Wide_Range_Cuff/Wide_Range_Cuff_01-1.jpg?sw=240&amp;sh=240&amp;sm=fit&amp;q=100" media="--medium">
+<img class="lazyload" src="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 1 1%22 /%3E" data-srcset="https://www.omron-healthcare.hu/dw/image/v2/BCWK_PRD/on/demandware.static/-/Sites-master-catalog/default/dw4503eab6/large/Wide_Range_Cuff/Wide_Range_Cuff_01-1.jpg?sw=179&amp;sh=179&amp;sm=fit&amp;q=100" alt="&Aacute;ll&iacute;that&oacute; mandzsetta" title="&Aacute;ll&iacute;that&oacute; mandzsetta">
+</picture>
+</a>
+</figure>
+
+
+
+
+
+
+
+</section>
+<section class="product-tile__right">
+<div class="product-properties">
+
+
+<div class="product-name">
+<a href="/hu/vernyomasmero-tartozekok/Wide_Range_Cuff.html" title="Go to Product: &Aacute;ll&iacute;that&oacute; mandzsetta">
+&Aacute;ll&iacute;that&oacute; mandzsetta
+</a>
+</div>
+
+<div class="item-code">
+9520534-2
+</div>
+
+
+
+
+
+
+
+<ul class="product-usp">
+
+<li>Manguito adaptable para monitores de presión arterial OMRON</li>
+
+
+<li>22-42 cm átmérőjű karon történő használatra alkalmas</li>
+
+
+</ul>
+
+
+</div>
+
+
+
+
+
+
+
+
+</section>
+</div>
+
+
+
+</li>
+
+
+<li class="grid-tile">
+
+<script type="text/javascript">//<!--
+/* <![CDATA[ (viewCategoryProduct-active_data.js) */
+(function(){
+try {
+	if (dw.ac) {
+		var search_params = {};
+		search_params.persd = 'false';
+		search_params.refs = '[{\"name\":\"Category\",\"value\":\"accessories\"}]';
+		search_params.sort = 'most-relevant';
+		search_params.imageUUID = '';
+		search_params.searchID = 'a887ee35-5769-4139-96b1-a01ad68f8c76';
+		search_params.locale = 'hu_HU';
+		search_params.queryLocale = 'hu_HU';
+		search_params.showProducts = 'true';
+		dw.ac.applyContext({category: "accessories", searchData: search_params});
+		if (typeof dw.ac._scheduleDataSubmission === "function") {
+			dw.ac._scheduleDataSubmission();
+		}
+	}
+} catch(err) {}
+})();
+/* ]]> */
+// -->
+</script>
+<script type="text/javascript">//<!--
+/* <![CDATA[ (viewProduct-active_data.js) */
+dw.ac._capture({id: "Small_Cuff", type: "searchhit"});
+/* ]]> */
+// -->
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="product-tile js-product-tile" id="b35437220b7f53a10f10ef4ee9" data-itemid="Small_Cuff" data-name="Gyermekmandzsetta" data-price="0" data-brand="OMRON" data-category="blood-pressure-monitor-accessories" data-currencycode="HUF">
+
+
+<section class="product-tile__left">
+<figure class="product-image"><!-- dwMarker="product" dwContentID="b35437220b7f53a10f10ef4ee9" -->
+
+<a href="/hu/vernyomasmero-tartozekok/Small_Cuff.html" title="Go to Product: Gyermekmandzsetta">
+
+
+
+
+
+
+
+
+
+
+<picture>
+<source data-srcset="https://www.omron-healthcare.hu/dw/image/v2/BCWK_PRD/on/demandware.static/-/Sites-master-catalog/default/dwcee2c6fd/large/Small_Cuff/Small_Cuff_01-1.jpg?sw=600&amp;sh=600&amp;sm=fit&amp;q=100" media="--large">
+<source data-srcset="https://www.omron-healthcare.hu/dw/image/v2/BCWK_PRD/on/demandware.static/-/Sites-master-catalog/default/dwcee2c6fd/large/Small_Cuff/Small_Cuff_01-1.jpg?sw=240&amp;sh=240&amp;sm=fit&amp;q=100" media="--medium">
+<img class="lazyload" src="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 1 1%22 /%3E" data-srcset="https://www.omron-healthcare.hu/dw/image/v2/BCWK_PRD/on/demandware.static/-/Sites-master-catalog/default/dwcee2c6fd/large/Small_Cuff/Small_Cuff_01-1.jpg?sw=179&amp;sh=179&amp;sm=fit&amp;q=100" alt="Gyermekmandzsetta" title="Gyermekmandzsetta">
+</picture>
+</a>
+</figure>
+
+
+
+
+
+
+
+</section>
+<section class="product-tile__right">
+<div class="product-properties">
+
+
+<div class="product-name">
+<a href="/hu/vernyomasmero-tartozekok/Small_Cuff.html" title="Go to Product: Gyermekmandzsetta">
+Gyermekmandzsetta
+</a>
+</div>
+
+<div class="item-code">
+9515373-3
+</div>
+
+
+
+
+
+
+
+<ul class="product-usp">
+
+<li><span style="font-size:15px;color:#000000;font-weight:normal;text-decoration:none;font-family:'docs-Calibri';font-style:normal;text-decoration-skip-ink:none;">Gyermekmandzsetta OMRON vérnyomásmérőkhöz</span></li>
+
+
+<li><span style="font-size:15px;color:#000000;font-weight:normal;text-decoration:none;font-family:'docs-Calibri';font-style:normal;text-decoration-skip-ink:none;"> 17-22 cm karkörméretre alkalmas</span></li>
+
+
+</ul>
+
+
+</div>
+
+
+
+
+
+
+
+
+</section>
+</div>
+
+
+
+</li>
+
+
+<li class="grid-tile">
+
+<script type="text/javascript">//<!--
+/* <![CDATA[ (viewCategoryProduct-active_data.js) */
+(function(){
+try {
+	if (dw.ac) {
+		var search_params = {};
+		search_params.persd = 'false';
+		search_params.refs = '[{\"name\":\"Category\",\"value\":\"accessories\"}]';
+		search_params.sort = 'most-relevant';
+		search_params.imageUUID = '';
+		search_params.searchID = 'a887ee35-5769-4139-96b1-a01ad68f8c76';
+		search_params.locale = 'hu_HU';
+		search_params.queryLocale = 'hu_HU';
+		search_params.showProducts = 'true';
+		dw.ac.applyContext({category: "accessories", searchData: search_params});
+		if (typeof dw.ac._scheduleDataSubmission === "function") {
+			dw.ac._scheduleDataSubmission();
+		}
+	}
+} catch(err) {}
+})();
+/* ]]> */
+// -->
+</script>
+<script type="text/javascript">//<!--
+/* <![CDATA[ (viewProduct-active_data.js) */
+dw.ac._capture({id: "C30_Nebuliser_Air_Filters", type: "searchhit"});
+/* ]]> */
+// -->
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="product-tile js-product-tile" id="d2e5d7200cef95b0060affae8d" data-itemid="C30_Nebuliser_Air_Filters" data-name="C30 inhalátor levegőszűrők" data-price="0" data-brand="OMRON" data-category="nebuliser-accessories" data-currencycode="HUF">
+
+
+<section class="product-tile__left">
+<figure class="product-image"><!-- dwMarker="product" dwContentID="d2e5d7200cef95b0060affae8d" -->
+
+<a href="/hu/inhalator-tartozekok/C30_Nebuliser_Air_Filters.html" title="Go to Product: C30 inhal&aacute;tor levegőszűrők">
+
+
+
+
+
+
+
+
+
+
+<picture>
+<source data-srcset="https://www.omron-healthcare.hu/dw/image/v2/BCWK_PRD/on/demandware.static/-/Sites-master-catalog/default/dw0abbfe0c/large/C30_Nebuliser_Air_Filters/C30_Nebuliser_Air_Filters_01-1.jpg?sw=600&amp;sh=600&amp;sm=fit&amp;q=100" media="--large">
+<source data-srcset="https://www.omron-healthcare.hu/dw/image/v2/BCWK_PRD/on/demandware.static/-/Sites-master-catalog/default/dw0abbfe0c/large/C30_Nebuliser_Air_Filters/C30_Nebuliser_Air_Filters_01-1.jpg?sw=240&amp;sh=240&amp;sm=fit&amp;q=100" media="--medium">
+<img class="lazyload" src="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 1 1%22 /%3E" data-srcset="https://www.omron-healthcare.hu/dw/image/v2/BCWK_PRD/on/demandware.static/-/Sites-master-catalog/default/dw0abbfe0c/large/C30_Nebuliser_Air_Filters/C30_Nebuliser_Air_Filters_01-1.jpg?sw=179&amp;sh=179&amp;sm=fit&amp;q=100" alt="C30 inhal&aacute;tor levegőszűrők" title="C30 inhal&aacute;tor levegőszűrők">
+</picture>
+</a>
+</figure>
+
+
+
+
+
+
+
+</section>
+<section class="product-tile__right">
+<div class="product-properties">
+
+
+<div class="product-name">
+<a href="/hu/inhalator-tartozekok/C30_Nebuliser_Air_Filters.html" title="Go to Product: C30 inhal&aacute;tor levegőszűrők">
+C30 inhal&aacute;tor levegőszűrők
+</a>
+</div>
+
+<div class="item-code">
+9956636-6
+</div>
+
+
+
+
+
+
+
+<ul class="product-usp">
+
+<li>Csere levegőszűrők</li>
+
+
+<li>OMRON C801, C802, C803 és C30 inhalátorokhoz</li>
+
+
+</ul>
+
+
+</div>
+
+
+
+
+
+
+
+
+</section>
+</div>
+
+
+
+</li>
+
+
+<li class="grid-tile">
+
+<script type="text/javascript">//<!--
+/* <![CDATA[ (viewCategoryProduct-active_data.js) */
+(function(){
+try {
+	if (dw.ac) {
+		var search_params = {};
+		search_params.persd = 'false';
+		search_params.refs = '[{\"name\":\"Category\",\"value\":\"accessories\"}]';
+		search_params.sort = 'most-relevant';
+		search_params.imageUUID = '';
+		search_params.searchID = 'a887ee35-5769-4139-96b1-a01ad68f8c76';
+		search_params.locale = 'hu_HU';
+		search_params.queryLocale = 'hu_HU';
+		search_params.showProducts = 'true';
+		dw.ac.applyContext({category: "accessories", searchData: search_params});
+		if (typeof dw.ac._scheduleDataSubmission === "function") {
+			dw.ac._scheduleDataSubmission();
+		}
+	}
+} catch(err) {}
+})();
+/* ]]> */
+// -->
+</script>
+<script type="text/javascript">//<!--
+/* <![CDATA[ (viewProduct-active_data.js) */
+dw.ac._capture({id: "Gentle_Temp_Probe_Covers_40", type: "searchhit"});
+/* ]]> */
+// -->
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="product-tile js-product-tile" id="0258401bbdb267a97b0894e5ad" data-itemid="Gentle_Temp_Probe_Covers_40" data-name="Gentle Temp szondasapka (40 db)" data-price="0" data-brand="OMRON" data-category="electronic-fever-thermometer-accessories" data-currencycode="HUF">
+
+
+<section class="product-tile__left">
+<figure class="product-image"><!-- dwMarker="product" dwContentID="0258401bbdb267a97b0894e5ad" -->
+
+<a href="/hu/homero-tartozekok/Gentle_Temp_Probe_Covers_40.html" title="Go to Product: Gentle Temp szondasapka (40 db)">
+
+
+
+
+
+
+
+
+
+
+<picture>
+<source data-srcset="https://www.omron-healthcare.hu/dw/image/v2/BCWK_PRD/on/demandware.static/-/Sites-master-catalog/default/dw04547964/large/Gentle_Temp_Probe_Covers_40/Gentle_Temp_Probe_Covers_40_01-1.jpg?sw=600&amp;sh=600&amp;sm=fit&amp;q=100" media="--large">
+<source data-srcset="https://www.omron-healthcare.hu/dw/image/v2/BCWK_PRD/on/demandware.static/-/Sites-master-catalog/default/dw04547964/large/Gentle_Temp_Probe_Covers_40/Gentle_Temp_Probe_Covers_40_01-1.jpg?sw=240&amp;sh=240&amp;sm=fit&amp;q=100" media="--medium">
+<img class="lazyload" src="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 1 1%22 /%3E" data-srcset="https://www.omron-healthcare.hu/dw/image/v2/BCWK_PRD/on/demandware.static/-/Sites-master-catalog/default/dw04547964/large/Gentle_Temp_Probe_Covers_40/Gentle_Temp_Probe_Covers_40_01-1.jpg?sw=179&amp;sh=179&amp;sm=fit&amp;q=100" alt="Gentle Temp szondasapka (40 db)" title="Gentle Temp szondasapka (40 db)">
+</picture>
+</a>
+</figure>
+
+
+
+
+
+
+
+</section>
+<section class="product-tile__right">
+<div class="product-properties">
+
+
+<div class="product-name">
+<a href="/hu/homero-tartozekok/Gentle_Temp_Probe_Covers_40.html" title="Go to Product: Gentle Temp szondasapka (40 db)">
+Gentle Temp szondasapka &#40;40 db&#41;
+</a>
+</div>
+
+<div class="item-code">
+MC-EP2-E
+</div>
+
+
+
+
+
+
+
+<ul class="product-usp">
+
+<li>40 db szondasapka</li>
+
+
+<li>Az OMRON GentleTemp 520 és 521 modellekkel használható</li>
+
+
+</ul>
+
+
+</div>
+
+
+
+
+
+
+
+
+</section>
+</div>
+
+
+
+</li>
+
+
+<li class="grid-tile">
+
+<script type="text/javascript">//<!--
+/* <![CDATA[ (viewCategoryProduct-active_data.js) */
+(function(){
+try {
+	if (dw.ac) {
+		var search_params = {};
+		search_params.persd = 'false';
+		search_params.refs = '[{\"name\":\"Category\",\"value\":\"accessories\"}]';
+		search_params.sort = 'most-relevant';
+		search_params.imageUUID = '';
+		search_params.searchID = 'a887ee35-5769-4139-96b1-a01ad68f8c76';
+		search_params.locale = 'hu_HU';
+		search_params.queryLocale = 'hu_HU';
+		search_params.showProducts = 'true';
+		dw.ac.applyContext({category: "accessories", searchData: search_params});
+		if (typeof dw.ac._scheduleDataSubmission === "function") {
+			dw.ac._scheduleDataSubmission();
+		}
+	}
+} catch(err) {}
+})();
+/* ]]> */
+// -->
+</script>
+<script type="text/javascript">//<!--
+/* <![CDATA[ (viewProduct-active_data.js) */
+dw.ac._capture({id: "Easy_Cuff", type: "searchhit"});
+/* ]]> */
+// -->
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="product-tile js-product-tile" id="3c764bc24d82ace91346a196c1" data-itemid="Easy_Cuff" data-name="Két méretfunkciós mandzsetta" data-price="0" data-brand="OMRON" data-category="blood-pressure-monitor-accessories" data-currencycode="HUF">
+
+
+<section class="product-tile__left">
+<figure class="product-image"><!-- dwMarker="product" dwContentID="3c764bc24d82ace91346a196c1" -->
+
+<a href="/hu/vernyomasmero-tartozekok/Easy_Cuff.html" title="Go to Product: K&eacute;t m&eacute;retfunkci&oacute;s mandzsetta">
+
+
+
+
+
+
+
+
+
+
+<picture>
+<source data-srcset="https://www.omron-healthcare.hu/dw/image/v2/BCWK_PRD/on/demandware.static/-/Sites-master-catalog/default/dw9ae6c602/large/Easy_Cuff/Easy_Cuff_01-1.jpg?sw=600&amp;sh=600&amp;sm=fit&amp;q=100" media="--large">
+<source data-srcset="https://www.omron-healthcare.hu/dw/image/v2/BCWK_PRD/on/demandware.static/-/Sites-master-catalog/default/dw9ae6c602/large/Easy_Cuff/Easy_Cuff_01-1.jpg?sw=240&amp;sh=240&amp;sm=fit&amp;q=100" media="--medium">
+<img class="lazyload" src="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 1 1%22 /%3E" data-srcset="https://www.omron-healthcare.hu/dw/image/v2/BCWK_PRD/on/demandware.static/-/Sites-master-catalog/default/dw9ae6c602/large/Easy_Cuff/Easy_Cuff_01-1.jpg?sw=179&amp;sh=179&amp;sm=fit&amp;q=100" alt="K&eacute;t m&eacute;retfunkci&oacute;s mandzsetta" title="K&eacute;t m&eacute;retfunkci&oacute;s mandzsetta">
+</picture>
+</a>
+</figure>
+
+
+
+
+
+
+
+</section>
+<section class="product-tile__right">
+<div class="product-properties">
+
+
+<div class="product-name">
+<a href="/hu/vernyomasmero-tartozekok/Easy_Cuff.html" title="Go to Product: K&eacute;t m&eacute;retfunkci&oacute;s mandzsetta">
+K&eacute;t m&eacute;retfunkci&oacute;s mandzsetta
+</a>
+</div>
+
+<div class="item-code">
+HEM-RML31-E
+</div>
+
+
+
+
+
+
+
+<ul class="product-usp">
+
+<li>Két méretfunkciós mandzsetta OMRON vérnyomásmérőkhöz</li>
+
+
+<li>22-42 cm karkörméretre alkalmas</li>
+
+
+</ul>
+
+
+</div>
+
+
+
+
+
+
+
+
+</section>
+</div>
+
+
+
+</li>
+
+
+<li class="grid-tile">
+
+<script type="text/javascript">//<!--
+/* <![CDATA[ (viewCategoryProduct-active_data.js) */
+(function(){
+try {
+	if (dw.ac) {
+		var search_params = {};
+		search_params.persd = 'false';
+		search_params.refs = '[{\"name\":\"Category\",\"value\":\"accessories\"}]';
+		search_params.sort = 'most-relevant';
+		search_params.imageUUID = '';
+		search_params.searchID = 'a887ee35-5769-4139-96b1-a01ad68f8c76';
+		search_params.locale = 'hu_HU';
+		search_params.queryLocale = 'hu_HU';
+		search_params.showProducts = 'true';
+		dw.ac.applyContext({category: "accessories", searchData: search_params});
+		if (typeof dw.ac._scheduleDataSubmission === "function") {
+			dw.ac._scheduleDataSubmission();
+		}
+	}
+} catch(err) {}
+})();
+/* ]]> */
+// -->
+</script>
+<script type="text/javascript">//<!--
+/* <![CDATA[ (viewProduct-active_data.js) */
+dw.ac._capture({id: "Medium_Cuff", type: "searchhit"});
+/* ]]> */
+// -->
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="product-tile js-product-tile" id="eefea266d9ec49de940600ef70" data-itemid="Medium_Cuff" data-name="Normál mandzsetta" data-price="0" data-brand="OMRON" data-category="blood-pressure-monitor-accessories" data-currencycode="HUF">
+
+
+<section class="product-tile__left">
+<figure class="product-image"><!-- dwMarker="product" dwContentID="eefea266d9ec49de940600ef70" -->
+
+<a href="/hu/vernyomasmero-tartozekok/Medium_Cuff.html" title="Go to Product: Norm&aacute;l mandzsetta">
+
+
+
+
+
+
+
+
+
+
+<picture>
+<source data-srcset="https://www.omron-healthcare.hu/dw/image/v2/BCWK_PRD/on/demandware.static/-/Sites-master-catalog/default/dwda142db1/large/Medium_Cuff/Medium_Cuff_01-1.jpg?sw=600&amp;sh=600&amp;sm=fit&amp;q=100" media="--large">
+<source data-srcset="https://www.omron-healthcare.hu/dw/image/v2/BCWK_PRD/on/demandware.static/-/Sites-master-catalog/default/dwda142db1/large/Medium_Cuff/Medium_Cuff_01-1.jpg?sw=240&amp;sh=240&amp;sm=fit&amp;q=100" media="--medium">
+<img class="lazyload" src="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 1 1%22 /%3E" data-srcset="https://www.omron-healthcare.hu/dw/image/v2/BCWK_PRD/on/demandware.static/-/Sites-master-catalog/default/dwda142db1/large/Medium_Cuff/Medium_Cuff_01-1.jpg?sw=179&amp;sh=179&amp;sm=fit&amp;q=100" alt="Norm&aacute;l mandzsetta" title="Norm&aacute;l mandzsetta">
+</picture>
+</a>
+</figure>
+
+
+
+
+
+
+
+</section>
+<section class="product-tile__right">
+<div class="product-properties">
+
+
+<div class="product-name">
+<a href="/hu/vernyomasmero-tartozekok/Medium_Cuff.html" title="Go to Product: Norm&aacute;l mandzsetta">
+Norm&aacute;l mandzsetta
+</a>
+</div>
+
+<div class="item-code">
+9513256-6
+</div>
+
+
+
+
+
+
+
+<ul class="product-usp">
+
+<li><span style="font-size:15px;color:#000000;font-weight:normal;text-decoration:none;font-family:'docs-Calibri';font-style:normal;text-decoration-skip-ink:none;">Normál mandzsetta OMRON vérnyomásmérőkhöz</span></li>
+
+
+<li><span style="font-size:15px;color:#000000;font-weight:normal;text-decoration:none;font-family:'docs-Calibri';font-style:normal;text-decoration-skip-ink:none;"> 22-32 cm karkörméretre alkalmas</span></li>
+
+
+</ul>
+
+
+</div>
+
+
+
+
+
+
+
+
+</section>
+</div>
+
+
+
+</li>
+
+
+<li class="grid-tile">
+
+<script type="text/javascript">//<!--
+/* <![CDATA[ (viewCategoryProduct-active_data.js) */
+(function(){
+try {
+	if (dw.ac) {
+		var search_params = {};
+		search_params.persd = 'false';
+		search_params.refs = '[{\"name\":\"Category\",\"value\":\"accessories\"}]';
+		search_params.sort = 'most-relevant';
+		search_params.imageUUID = '';
+		search_params.searchID = 'a887ee35-5769-4139-96b1-a01ad68f8c76';
+		search_params.locale = 'hu_HU';
+		search_params.queryLocale = 'hu_HU';
+		search_params.showProducts = 'true';
+		dw.ac.applyContext({category: "accessories", searchData: search_params});
+		if (typeof dw.ac._scheduleDataSubmission === "function") {
+			dw.ac._scheduleDataSubmission();
+		}
+	}
+} catch(err) {}
+})();
+/* ]]> */
+// -->
+</script>
+<script type="text/javascript">//<!--
+/* <![CDATA[ (viewProduct-active_data.js) */
+dw.ac._capture({id: "AC_Adapter_S_for_BPM_2", type: "searchhit"});
+/* ]]> */
+// -->
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="product-tile js-product-tile" id="671d931627d8b72a5c139d7aa5" data-itemid="AC_Adapter_S_for_BPM_2" data-name="Hálózati adapter (HHP-CM01)" data-price="0" data-brand="OMRON" data-category="blood-pressure-monitor-accessories" data-currencycode="HUF">
+
+
+<section class="product-tile__left">
+<figure class="product-image"><!-- dwMarker="product" dwContentID="671d931627d8b72a5c139d7aa5" -->
+
+<a href="/hu/vernyomasmero-tartozekok/AC_Adapter_S_for_BPM_2.html" title="Go to Product: H&aacute;l&oacute;zati adapter (HHP-CM01)">
+
+
+
+
+
+
+
+
+
+
+<picture>
+<source data-srcset="https://www.omron-healthcare.hu/dw/image/v2/BCWK_PRD/on/demandware.static/-/Sites-master-catalog/default/dw27e59d8f/large/AC_Adapter_S_for_BPM_2/AC_Adapter_S_for_BPM_2-1.jpg?sw=600&amp;sh=600&amp;sm=fit&amp;q=100" media="--large">
+<source data-srcset="https://www.omron-healthcare.hu/dw/image/v2/BCWK_PRD/on/demandware.static/-/Sites-master-catalog/default/dw27e59d8f/large/AC_Adapter_S_for_BPM_2/AC_Adapter_S_for_BPM_2-1.jpg?sw=240&amp;sh=240&amp;sm=fit&amp;q=100" media="--medium">
+<img class="lazyload" src="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 1 1%22 /%3E" data-srcset="https://www.omron-healthcare.hu/dw/image/v2/BCWK_PRD/on/demandware.static/-/Sites-master-catalog/default/dw27e59d8f/large/AC_Adapter_S_for_BPM_2/AC_Adapter_S_for_BPM_2-1.jpg?sw=179&amp;sh=179&amp;sm=fit&amp;q=100" alt="H&aacute;l&oacute;zati adapter (HHP-CM01)" title="H&aacute;l&oacute;zati adapter (HHP-CM01)">
+</picture>
+</a>
+</figure>
+
+
+
+
+
+
+
+</section>
+<section class="product-tile__right">
+<div class="product-properties">
+
+
+<div class="product-name">
+<a href="/hu/vernyomasmero-tartozekok/AC_Adapter_S_for_BPM_2.html" title="Go to Product: H&aacute;l&oacute;zati adapter (HHP-CM01)">
+H&aacute;l&oacute;zati adapter &#40;HHP-CM01&#41;
+</a>
+</div>
+
+<div class="item-code">
+9546045-8
+</div>
+
+
+
+
+
+
+
+<ul class="product-usp">
+
+<li>Hálózati adapter OMRON vérnyomásmérőkhöz és az NE-C803-E inhalátorhoz</li>
+
+
+<li>Csökkenti az akkumulátor fogyasztását</li>
+
+
+</ul>
+
+
+</div>
+
+
+
+
+
+
+
+
+</section>
+</div>
+
+
+
+</li>
+
+</ul>
+
+
+<div class="js-compare-footer compare-footer sticky" data-category-id="accessories">
+<div class="js-content compare-footer__content">
+<div class="js-compare-label compare-footer__label"></div>
+<form action="/hu/product-comparison" method="post" class="compare-footer__form js-compare-selection">
+<button id="compare-items-button" value="&Ouml;sszehasonl&iacute;t&aacute;s" class="compare-footer__cta btn3">&Ouml;sszehasonl&iacute;t&aacute;s</button>
+</form>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="main-site-footer">
+<div class="main-footer-nav">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="newsletter-wrapper">
+<div class="maxcolumn">
+<form action="/on/demandware.store/Sites-OMR-HU-Site/hu_HU/Newsletter-Submit" class="js-hp-bnnr-newsletter-form js-newsletter-form" method="post" id="dwfrm_newsletter">
+<div class="newsletter-intro">
+<h2>Legyen t&aacute;j&eacute;kozott az eg&eacute;szs&eacute;g &eacute;s a j&oacute; k&ouml;z&eacute;rzet t&eacute;m&aacute;iban</h2>
+<p>Szerezze be a teljesebb &eacute;let el&eacute;r&eacute;s&eacute;t seg&iacute;tő INGYENES eg&eacute;szs&eacute;g&uuml;gyi- &eacute;s &eacute;letm&oacute;d-tan&aacute;csainkat, &eacute;s &eacute;rtes&uuml;lj&ouml;n elsők&eacute;nt k&uuml;l&ouml;nleges aj&aacute;nlatainkr&oacute;l.</p>
+</div>
+<div class="newsletter-inputs">
+
+
+
+<div class="form-row js-input-placeholder  required emailAddress">
+
+
+
+<label for="dwfrm_newsletter_emailAddress"><span class="required-indicator-asterix"></span><span>E-mail cím</span></label>
+
+
+<div class="field-wrapper">
+<input class="input-text  required" type="email" id="dwfrm_newsletter_emailAddress" name="dwfrm_newsletter_emailAddress" value="" maxlength="50" regex="^[\w.%+-]+@[\w.-]+\.[\w]{2,6}$"><label for="dwfrm_newsletter_emailAddress"></label>
+</div>
+
+
+
+
+
+
+</div>
+
+<button type="submit" name="dwfrm_newsletter_subscribe" class="js-newsletter-btn-subscribe">
+<span>Feliratkoz&aacute;s</span>
+</button>
+<input type="hidden" name="dwfrm_newsletter_topic" value="">
+<input type="hidden" name="dwfrm_newsletter_optinsource" value="">
+
+
+
+<div class="form-row js-input-placeholder  required label-inline form-indent consent">
+
+
+
+<div class="field-wrapper">
+<input class="input-checkbox  required" type="checkbox" id="dwfrm_newsletter_consent_d0izqicqbrhq" name="dwfrm_newsletter_consent_d0izqicqbrhq" value="true" maxlength="2147483647"><label for="dwfrm_newsletter_consent_d0izqicqbrhq"></label>
+</div>
+
+
+<label for="dwfrm_newsletter_consent_d0izqicqbrhq"><span class="required-indicator-asterix"></span><span>"A hírlevélre való feliratkozással elfogadom az OMRON <a href="" https:="" www.omron-healthcare.hu="" hu="" legal="" a-weboldal-hasznalatanak-feltetelei.html""="" target="" _blank""="">Felhasználási feltételeit</a> és <a href="" https:="" www.omron-healthcare.hu="" hu="" legal="" omron-adatvedelmi-szabalyzat.html""="" target="" _blank""="">Adatvédelmi irányelveit</a>, és tudomásul veszem, hogy a hírlevélről bármikor leiratkozhatok. "</span></label>
+
+
+
+
+
+
+</div>
+
+</div>
+</form>
+</div>
+</section>
+
+
+<div class="footer-section-blocks">
+<div class="maxcolumn">
+
+
+
+
+
+
+<div class="footer-section-block">
+<h2>Term&eacute;kek</h2>
+<ul>
+
+
+<li>
+<a href="https://www.omron-healthcare.hu/hu/kategoria/vernyomasmerok">
+V&eacute;rnyom&aacute;sm&eacute;rők
+</a>
+</li>
+
+
+
+<li>
+<a href="https://www.omron-healthcare.hu/hu/kategoria/inhalatorok">
+Inhal&aacute;torok
+</a>
+</li>
+
+
+
+<li>
+<a href="https://www.omron-healthcare.hu/hu/kategoria/fajdalomcsillapitok">
+F&aacute;jdalomcsillap&iacute;t&oacute;k
+</a>
+</li>
+
+
+
+<li>
+<a href="https://www.omron-healthcare.hu/hu/kategoria/digitalis-merlegek">
+Digit&aacute;lis m&eacute;rlegek
+</a>
+</li>
+
+
+
+<li>
+<a href="https://www.omron-healthcare.hu/hu/kategoria/homerok">
+Hőm&eacute;rők
+</a>
+</li>
+
+
+</ul>
+</div>
+
+
+
+<div class="footer-section-block">
+<h2>Tartoz&eacute;kok</h2>
+<ul>
+
+
+<li>
+<a href="https://www.omron-healthcare.hu/hu/vernyomasmero-tartozekok">
+V&eacute;rnyom&aacute;sm&eacute;rő tartoz&eacute;kok
+</a>
+</li>
+
+
+
+<li>
+<a href="https://www.omron-healthcare.hu/hu/inhalator-tartozekok">
+Inhal&aacute;tor tartoz&eacute;kok
+</a>
+</li>
+
+
+
+<li>
+<a href="https://www.omron-healthcare.hu/hu/fajdalomcsillapito-tartozekok">
+F&aacute;jdalomcsillap&iacute;t&oacute; tartoz&eacute;kok
+</a>
+</li>
+
+
+
+<li>
+<a href="https://www.omron-healthcare.hu/hu/homero-tartozekok">
+Hőm&eacute;rő tartoz&eacute;kok
+</a>
+</li>
+
+
+</ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- dwMarker="content" dwContentID="0d1280fb41d071aa25f6312601" -->
+
+
+
+
+
+
+<div class="footer-section-block"><!-- dwMarker="content" dwContentID="32e26c6db1deca38a27c90260a" -->
+<h2>Eg&eacute;szs&eacute;g &eacute;s &eacute;letm&oacute;d</h2>
+
+<ul>
+
+<li>
+<a href="/hu/egeszseg-es-eletmod">Minden t&eacute;mak&ouml;r</a>
+</li>
+
+<li>
+<a href="/hu/egeszseg-es-eletmod/a-sziv-egeszsege">A sz&iacute;v eg&eacute;szs&eacute;ge</a>
+</li>
+
+<li>
+<a href="/hu/egeszseg-es-eletmod/a-legzoszervek-egeszsege">A l&eacute;gzőszervek eg&eacute;szs&eacute;ge</a>
+</li>
+
+<li>
+<a href="/hu/egeszseg-es-eletmod/fajdalomkezeles">F&aacute;jdalomkezel&eacute;s</a>
+</li>
+
+</ul>
+
+</div>
+
+
+
+
+
+
+
+<div class="footer-section-block"><!-- dwMarker="content" dwContentID="ede9c3db473dc095733aa5180c" -->
+<h2>T&aacute;mogat&aacute;s</h2>
+
+<ul>
+
+<li>
+<a href="/hu/tamogatas">K&eacute;sz&uuml;l&eacute;kt&aacute;mogat&aacute;s</a>
+</li>
+
+<li>
+<a href="/hu/kapcsolat">Kapcsolat</a>
+</li>
+
+<li>
+<a href="https://www.telehealth.omron.com/telehealth/">Fejlesztők</a>
+</li>
+
+<li>
+<a href="/hu/legal/electro-magnetic-compatibility.html">Elektrom&aacute;gneses kompatibilit&aacute;s (Angol)</a>
+</li>
+
+<li>
+<a href="/hu/legal/declaration-of-conformity.html">Megfelelős&eacute;gi nyilatkozat (Angol)</a>
+</li>
+
+</ul>
+
+</div>
+
+
+
+
+
+
+
+<div class="footer-section-block"><!-- dwMarker="content" dwContentID="46dcace9a93b28cfe5604cf6ff" -->
+<h2>N&eacute;vjegy</h2>
+
+<ul>
+
+<li>
+<a href="/hu/general/omron-healthcare.html">OMRON Healthcare</a>
+</li>
+
+<li>
+<a href="https://www.omronconnect.com/emea/en_gb/">OMRON connect applik&aacute;ci&oacute;</a>
+</li>
+
+<li>
+<a href="/hu/general/dystrybucja.html">Forgalmaz&oacute;i h&aacute;l&oacute;zat</a>
+</li>
+
+<li>
+<a href="/hu/general/news-%26-events/news-articles-overview.html">H&iacute;rek (Angol)</a>
+</li>
+
+<li>
+<a href="/on/demandware.store/Sites-OMR-HU-Site/hu_HU/Search-ShowContent?fdid=omron-academy">OMRON Akad&eacute;mia (Angol)</a>
+</li>
+
+<li>
+<a href="https://careers.omron-healthcare.com/">&Aacute;ll&aacute;slehetős&eacute;gek</a>
+</li>
+
+</ul>
+
+</div>
+
+
+
+ 
+
+
+
+
+<script type="text/javascript"> (function(){
+  window.languageSelectorList = [{"countryCode":"BE","countryName":"Belgium","localeCode":"en_BE","localName":"English","redirectUrl":"https://www.omron-healthcare.be/en/home"},{"countryCode":"BE","countryName":"Belgium","localeCode":"fr_BE","localName":"Français","redirectUrl":"https://www.omron-healthcare.be/fr/page-de-accueil"},{"countryCode":"BE","countryName":"Belgium","localeCode":"nl_BE","localName":"Nederlands","redirectUrl":"https://www.omron-healthcare.be/nl/startpagina"},{"countryCode":"BG","countryName":"Bulgária","localeCode":"bg_BG","localName":"Български","redirectUrl":"https://www.omron-healthcare.bg/bg/%D0%BD%D0%B0%D1%87%D0%B0%D0%BB%D0%BD%D0%B0-%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0"},{"countryCode":"BG","countryName":"Bulgária","localeCode":"en_BG","localName":"English","redirectUrl":"https://www.omron-healthcare.bg/en/home"},{"countryCode":"CH","countryName":"Svájc","localeCode":"en_CH","localName":"English","redirectUrl":"https://www.omron-healthcare.ch/en/home"},{"countryCode":"CH","countryName":"Svájc","localeCode":"fr_CH","localName":"Français","redirectUrl":"https://www.omron-healthcare.ch/fr/page-de-accueil"},{"countryCode":"CH","countryName":"Svájc","localeCode":"de_CH","localName":"Deutsch","redirectUrl":"https://www.omron-healthcare.ch/de/homepage"},{"countryCode":"CH","countryName":"Svájc","localeCode":"it_CH","localName":"Italiano","redirectUrl":"https://www.omron-healthcare.ch/it/homepage"},{"countryCode":"DE","countryName":"Németország","localeCode":"de_DE","localName":"Deutsch","redirectUrl":"https://www.omron-healthcare.de/de/homepage"},{"countryCode":"DE","countryName":"Németország","localeCode":"en_DE","localName":"English","redirectUrl":"https://www.omron-healthcare.de/en/home"},{"countryCode":"ES","countryName":"Spanyolország","localeCode":"en_ES","localName":"English","redirectUrl":"https://www.omron-healthcare.es/en/home"},{"countryCode":"ES","countryName":"Spanyolország","localeCode":"es_ES","localName":"Español","redirectUrl":"https://www.omron-healthcare.es/es/pagina-de-inicio"},{"countryCode":"EU","countryName":"Európa, Közel-Kelet és Afrika","localeCode":"en_GB","localName":"English","redirectUrl":"https://www.omron-healthcare.com/eu"},{"countryCode":"FI","countryName":"Finnország","localeCode":"en_FI","localName":"English","redirectUrl":"https://www.omron-healthcare.fi/en/home"},{"countryCode":"FI","countryName":"Finnország","localeCode":"fi_FI","localName":"Suomalainen","redirectUrl":"https://www.omron-healthcare.fi/fi/aloitussivulle"},{"countryCode":"FR","countryName":"Franciaország","localeCode":"en_FR","localName":"English","redirectUrl":"https://www.omron-healthcare.fr/en/home"},{"countryCode":"FR","countryName":"Franciaország","localeCode":"fr_FR","localName":"Français","redirectUrl":"https://www.omron-healthcare.fr/fr/page-de-accueil"},{"countryCode":"GB","countryName":"Egyesült Királyság","localeCode":"en_GB","localName":"English","redirectUrl":"https://www.omron-healthcare.co.uk/"},{"countryCode":"IT","countryName":"Olaszország","localeCode":"it_IT","localName":"Italiano","redirectUrl":"https://www.omron-healthcare.it/it/homepage"},{"countryCode":"IT","countryName":"Olaszország","localeCode":"en_IT","localName":"English","redirectUrl":"https://www.omron-healthcare.it/en/home"},{"countryCode":"HU","countryName":"Magyarország","localeCode":"en_HU","localName":"English","redirectUrl":"https://www.omron-healthcare.hu/en/accessories"},{"countryCode":"HU","countryName":"Magyarország","localeCode":"hu_HU","localName":"Magyar","redirectUrl":"https://www.omron-healthcare.hu/hu/tartozekok"},{"countryCode":"NG","countryName":"Nigéria","localeCode":"en_NG","localName":"English","redirectUrl":"https://www.omron-healthcare.ng/home"},{"countryCode":"NL","countryName":"Hollandia","localeCode":"nl_NL","localName":"Nederlands","redirectUrl":"https://www.omron-healthcare.nl/nl/startpagina"},{"countryCode":"NL","countryName":"Hollandia","localeCode":"en_NL","localName":"English","redirectUrl":"https://www.omron-healthcare.nl/en/home"},{"countryCode":"PL","countryName":"Lengyelország","localeCode":"en_PL","localName":"English","redirectUrl":"https://www.omron-healthcare.pl/en/home"},{"countryCode":"PL","countryName":"Lengyelország","localeCode":"pl_PL","localName":"Polski","redirectUrl":"https://www.omron-healthcare.pl/pl/strona-glowna"},{"countryCode":"PT","countryName":"Portugália","localeCode":"en_PT","localName":"English","redirectUrl":"https://www.omron-healthcare.pt/en/home"},{"countryCode":"PT","countryName":"Portugália","localeCode":"pt_PT","localName":"Português","redirectUrl":"https://www.omron-healthcare.pt/pt/pagina-inicial"},{"countryCode":"RO","countryName":"Románia","localeCode":"en_RO","localName":"English","redirectUrl":"https://www.omron-healthcare.ro/en/home"},{"countryCode":"RO","countryName":"Románia","localeCode":"ro_RO","localName":"Română","redirectUrl":"https://www.omron-healthcare.ro/ro/home"},{"countryCode":"TR","countryName":"Törökország","localeCode":"en_TR","localName":"English","redirectUrl":"https://www.omron-healthcare.com/en-tr"},{"countryCode":"TR","countryName":"Törökország","localeCode":"tr_TR","localName":"Türk","redirectUrl":"https://www.omron-healthcare.com/tr-tr"},{"countryCode":"ZA","countryName":"Dél-Afrika","localeCode":"en_ZA","localName":"English","redirectUrl":"https://www.omron-healthcare.co.za/home"}];
+	}());
+</script>
+<div class="footer-section-block language">
+		<h2>Orsz&aacute;g &eacute;s nyelv</h2>
+  	<div class="js-language-selector language-selector-popup">
+				<div class="intro">
+ 	  			<h2>Orsz&aacute;g m&oacute;dos&iacute;t&aacute;sa</h2>
+	     		<div class="change-country-disclaimer">Az orsz&aacute;g m&oacute;dos&iacute;t&aacute;s&aacute;val egy m&aacute;sik OMRON weboldalra ir&aacute;ny&iacute;tjuk, ahol előfordulhat, hogy az online v&aacute;s&aacute;rl&aacute;si funkci&oacute;k nem el&eacute;rhetők.</div>
+	  		</div>
+	  		<span class="select-wrap">
+	    	<select name="localeSelectorCountry" class="js-localeSelectorCountry">
+	      </select>
+	      		<span class="icon-arrow"></span>
+	          <span class="border-block"></span>
+	    	</span>
+
+	    	<span class="select-wrap">
+	    			<select name="localeSelectorLanguage" class="js-localeSelectorLanguage"></select>
+	      		<span class="icon-arrow"></span>
+	        	<span class="border-block"></span>
+	    	</span>
+      	<button id="locale-button" class="btn js-localeSelectorButton" type="button" data-url="https://www.omron-healthcare.hu/on/demandware.store/Sites-OMR-HU-Site/hu_HU/RedirectURL-SetRequestLocaleCookie">Alkalmaz</button>
+		</div>
+</div>
+
+
+</div>
+</div>
+</div>
+<div class="sub-footer-nav maxcolumn">
+
+
+
+<ul class="share-icons"><!-- dwMarker="content" dwContentID="e14815278791a91675d8058049" -->
+
+<li>
+<a href="https://www.facebook.com/OmronHealthcare" target="_blank" class="iconfont-facebook">
+<span class="hide-text">facebook</span>
+</a>
+</li>
+
+<li>
+<a href="https://twitter.com/OmronHealthEU" target="_blank" class="iconfont-twitter">
+<span class="hide-text">twitter</span>
+</a>
+</li>
+
+<li>
+<a href="https://www.youtube.com/user/OmronHealthEU" target="_blank" class="iconfont-youtube">
+<span class="hide-text">youtube</span>
+</a>
+</li>
+
+<li>
+<a href="https://www.linkedin.com/company/omron-healthcare-europe/jobs" target="_blank" class="iconfont-linkedin">
+<span class="hide-text">linkedin</span>
+</a>
+</li>
+
+</ul>
+
+
+
+
+
+
+<ul class="disclaimer-nav"><!-- dwMarker="content" dwContentID="91ff082c82e841526beb5e22be" -->
+
+<li>
+<a href="/hu/legal/a-weboldal-hasznalatanak-feltetelei.html">
+A haszn&aacute;lat felt&eacute;telei
+</a>
+</li>
+
+<li>
+<a href="/hu/legal/omron-adatvedelmi-szabalyzat.html">
+Adatv&eacute;delmi ir&aacute;nyelvek
+</a>
+</li>
+
+<li>
+<a href="/hu/legal/az-omron-sutikre-vonatkozo-iranyelvei.html">
+Cookie-kra vonatkoz&oacute; ir&aacute;nyelvek
+</a>
+</li>
+
+</ul>
+
+
+</div>
+</footer>
+<div class="dialog-container" id="js-dialog">
+<div class="dialog-window">
+<div class="dialog-header js-dialog-header">
+<h2 class="dialog-title js-dialog-title hidden h3"></h2>
+<button type="button" class="close-dialog js-close-dialog"></button>
+</div>
+<div class="dialog-content"></div>
+</div>
+</div>
+<div class="cookie-dialog-container" id="js-cookie-dialog">
+<div class="dialog-window">
+<div class="dialog-content"></div>
+</div>
+</div>
+
+
+
+
+
+<script>
+
+(function(){
+window.Constants = {"AVAIL_STATUS_IN_STOCK":"IN_STOCK","AVAIL_STATUS_PREORDER":"PREORDER","AVAIL_STATUS_BACKORDER":"BACKORDER","AVAIL_STATUS_NOT_AVAILABLE":"NOT_AVAILABLE","ORDER_COMBINED":"COMBINED","ORDER_BPONLY":"BPONLY","ORDER_NORMAL":"NORMAL"};
+window.Resources = {"I_AGREE":"Elfogadom","TRACKING_CONSENT":"Igen","TRACKING_NO_CONSENT":"Nem","CLOSE":"Becsuk","NO_THANKS":"Nem, köszönöm.","OK":"OK","ARE_YOU_HUMAN":"Ön ember?","READ_MORE":"Olvasson többet","READ_LESS":"Olvasson kevesebbet","APPLY":"Alkalmaz","APPLIED":"Applied","SHIP_QualifiesFor":"This shipment qualifies for","CC_LOAD_ERROR":"Couldn't load credit card!","COULD_NOT_SAVE_ADDRESS":"A cím mentése sikertelen. Próbálja újra, vagy lépjen kapcsolatba a Terméktámogatási osztállyal.","REG_ADDR_ERROR":"A cím nem található","REGISTRATION_FORM_TITLE":"Új felhasználói fiók létrehozása","BONUS_PRODUCT":"Bonus Product","BONUS_PRODUCTS":"Bonus Products","SELECT_BONUS_PRODUCTS":"Select Bonus Products","SELECT_BONUS_PRODUCT":"product.selectbonusproduct","BONUS_PRODUCT_MAX":"The maximum number of bonus products has been selected. Please remove one in order to add additional bonus products.","BONUS_PRODUCT_TOOMANY":"You have selected too many bonus products. Please change the quantity.","SIMPLE_SEARCH":"Írja be a kulcsszót","SUBSCRIBE_EMAIL_DEFAULT":"E-mail cím","SIZE_SELECTOR":"HeartGuide size selector","MARKETPLACE_TITLE":"Buy through the marketplaces","CURRENCY_SYMBOL":"Ft","MISSINGVAL":"Adjon meg {0}-t","SERVER_ERROR":"A szerverhez történő csatlakozás sikertelen.","MISSING_LIB":"jQuery is undefined.","BAD_RESPONSE":"Bad response - parser error!","INVALID_PHONE":"Valós adatokat adjon meg.","REMOVE":"Eltávolítás","QTY":"Qty","EMPTY_IMG_ALT":"Eltávolítás","COMPARE_BUTTON_LABEL":"Összehasonlítás","COMPARE_CONFIRMATION":"Ez eltávolítja az összehasonlításhoz először hozzáadott terméket. Ez rendben van?","COMPARE_REMOVE_FAIL":"Elem eltávolítása a listából sikertelen","COMPARE_ADD_FAIL":"Elem hozzáadása a listához sikertelen","COMPARE_INSTRUCTIONS":"Maximum {0} termék kiválasztása","COMPARE_SELECTED":"{0} termék került kiválasztásra","ADD_TO_CART_FAIL":"Unable to add item '{0}' to cart","REGISTRY_SEARCH_ADVANCED_CLOSE":"Becsuk","GIFT_CERT_INVALID":"Invalid gift certificate code.","GIFT_CERT_BALANCE":"Your current gift certificate balance is","GIFT_CERT_AMOUNT_INVALID":"Gift Certificate can only be purchased with a minimum of 5 and maximum of 5000","GIFT_CERT_MISSING":"Please enter a gift certificate code.","INVALID_OWNER":"This appears to be a credit card number. Please enter the name of the card holder.","COUPON_CODE_MISSING":"Ez a mező nem maradhat üresen.","COOKIES_DISABLED":"Böngészője a jelenlegi beállításokkal nem fogadja el a cookie-kat. Kapcsolja be ezt a funkciót, vagy kapcsoljon ki minden olyan beállítást, ami blokkolja a cookie-k használatát.","BML_AGREE_TO_TERMS":"El kell fogadnia az Általános feltételeket és az Adatvédelmi irányelveket.","CHAR_LIMIT_MSG":"{0} karakter maradt a felhasználható {1} karakterből.","CONFIRM_DELETE":"Eltávolítja ezt a {0}-t?","TITLE_GIFTREGISTRY":"gift registry","TITLE_ADDRESS":"Cím","TITLE_CREDITCARD":"credit card","SERVER_CONNECTION_ERROR":"A szerverhez történő csatlakozás sikertelen.","IN_STOCK_DATE":"The expected in-stock date is {0}.","ITEM_STATUS_NOTAVAILABLE":"This item is currently not available.","INIFINITESCROLL":"Összes megtekintése","STORE_NEAR_YOU":"What's available at a store near you","SELECT_STORE":"Select Store","SELECTED_STORE":"Selected Store","PREFERRED_STORE":"Preferred Store","SET_PREFERRED_STORE":"Set Preferred Store","ENTER_ZIP":"Irányítószám","INVALID_ZIP":"Valós adatokat adjon meg.","SEARCH":"Keresés","CHANGE_LOCATION":"Helyváltozatás","CONTINUE_WITH_STORE":"Continue with preferred store","CONTINUE":"Folytatni","SEE_MORE":"Több üzlet megjelenítése","SEE_LESS":"Kevesebb üzlet megjelenítése","QUICK_VIEW":"Előnézet","QUICK_VIEW_POPUP":"Termék előnézet","TLS_WARNING":"Elavult böngészőt használ. Frissítse a böngészőjét, hogy biztonságosabb és felhasználóbarátabb felületen élvezhesse weboldalunk szolgáltatásait.","CSRF_TOKEN_MISMATCH":"CSRF token nem egyezik","NEWSLETTER_SUCCESS":"Kész!","NOTIFYME_SUCCESS":"Successfull!","ORDER_NUMBER_LABEL":"Rendelési szám (nem kötelező)","BROCHURE_DOWNLOAD":"Download brochure","STORE_NOSTORESINTHISAREA":"Nem található gyógyszertár vagy gyógyászati eszközöket árusító üzlet a megadott régióban.","STORE_NORESERVABLESTORESINTHISAREA":"No stores in this area","STORE_NOTDETERMINED":"Search location could not be determined","STORE_NO_RESULT":"Hely nem található","STORE_ERROR":"Nincs találat","STORE_LOADMORE":"Továbbiak","STORE_DIRECTIONS":"Útvonalak","STORE_GOLDPARTNER":"Arany fokozatú partner","STORE_DISTANCEUNIT":"km","STORE_REGULAROPENINGHOURS":"Regular opening hours","STORE_RESERVE":"Reserve","STORE_RESERVEAVAILIBILITY":"Available within one business day","STORE_VIEW_OPENING_HOURS":"View opening hours","STORE_HIDE_OPENING_HOURS":"Hide opening hours","RESERVE_IN_STORE":"Reserve in store","DELETE_ACCOUNT_TITLE":"Törölje a fiókját","DELETE_ACCOUNT_MESSAGE":"Fiókjának törlésével többé nem tudsz bejelentkezni a profilodba. Az Ön személyes adatait azonnal törlik az OMRON Healthcare és a harmadik felek szerverein. Ön is automatikusan leiratkozik a hírlevelekről, de bármikor újra feliratkozhat. <br> <br> Megjegyzés: Ezt a műveletet nem lehet visszavonni.","DELETE_ACCOUNT_CONFIRM":"Töröl","DELETE_ACCOUNT_CANCEL":"Megszünteti","VALIDATE_REQUIRED":"Ez a mező nem maradhat üresen.","VALIDATE_REMOTE":"Please fix this field.","VALIDATE_EMAIL":"Valós adatokat adjon meg.","VALIDATE_URL":"Please enter a valid URL.","VALIDATE_DATE":"Please enter a valid date.","VALIDATE_DATEISO":"Please enter a valid date ( ISO ).","VALIDATE_NUMBER":"Please enter a valid number.","VALIDATE_DIGITS":"Please enter only digits.","VALIDATE_CREDITCARD":"Please enter a valid credit card number.","VALIDATE_EQUALTO":"Please enter the same value again.","VALIDATE_MAXLENGTH":"Please enter no more than {0} characters.","VALIDATE_MINLENGTH":"Please enter at least {0} characters.","VALIDATE_RANGELENGTH":"Please enter a value between {0} and {1} characters long.","VALIDATE_RANGE":"Please enter a value between {0} and {1}.","VALIDATE_MAX":"Adjon meg egy {0} értékkel megegyező, vagy annál kisebb értéket.","VALIDATE_MIN":"Please enter a value greater than or equal to {0}.","VALIDATE_ORDER":"Order does not exist, please enter a valid order number.","VALIDATE_POSTALCODE_EXCLUDED":"Delivery is not posible for entered postal code","VALIDATE_EMAIL_EXISTS":"Már létezik egy ezzel az e-mail címmel regisztrált OMRON felhasználói fiók. Kérjük lépjen be vagy egy másik e-mail címmel hozzon létre felhasználói fiókot.","LANGUAGE_EN":"English","LANGUAGE_FR":"Français","LANGUAGE_NL":"Nederlands","LANGUAGE_BG":"Български","LANGUAGE_DE":"Deutsch","LANGUAGE_IT":"Italiano","LANGUAGE_ES":"Español","LANGUAGE_FI":"Suomalainen","LANGUAGE_HU":"Magyar","LANGUAGE_PL":"Polski","LANGUAGE_PT":"Português","LANGUAGE_RO":"Română","LANGUAGE_TR":"Türk","COUNTRY_EN":"country.en","COUNTRY_FR":"Franciaország","COUNTRY_NL":"Hollandia","COUNTRY_BG":"Bulgária","COUNTRY_DE":"Németország","COUNTRY_IT":"Olaszország","COUNTRY_ES":"Spanyolország","COUNTRY_FI":"Finnország","COUNTRY_HU":"Magyarország","COUNTRY_PL":"Lengyelország","COUNTRY_PT":"Portugália","COUNTRY_RO":"Románia","COUNTRY_TR":"Törökország","COUNTRY_AT":"Ausztria","COUNTRY_EU":"Európa, Közel-Kelet és Afrika","COUNTRY_BE":"Belgium","COUNTRY_CH":"Svájc","COUNTRY_GB":"Egyesült Királyság","COUNTRY_NG":"Nigéria","COUNTRY_ZA":"Dél-Afrika","IN_STOCK":"Készleten","QTY_IN_STOCK":"{0} Item(s) in Stock","PREORDER":"Pre-Order","QTY_PREORDER":"{0} item(s) are available for pre-order.","REMAIN_PREORDER":"The remaining items are available for pre-order.","BACKORDER":"Hozzáadás a kosárhoz","QTY_BACKORDER":"Back order {0} item(s)","REMAIN_BACKORDER":"The remaining items are available on back order.","NOT_AVAILABLE":"This item is currently not available.","REMAIN_NOT_AVAILABLE":"The remaining items are currently not available. Please adjust the quantity."};
+window.Urls = {"appResources":"/on/demandware.store/Sites-OMR-HU-Site/hu_HU/Resources-Load","pageInclude":"/on/demandware.store/Sites-OMR-HU-Site/hu_HU/Page-Include","continueUrl":"https://www.omron-healthcare.hu/hu/kereses","staticPath":"/on/demandware.static/Sites-OMR-HU-Site/-/hu_HU/v1608626381145/","addGiftCert":"/on/demandware.store/Sites-OMR-HU-Site/hu_HU/GiftCert-Purchase","minicartGC":"/on/demandware.store/Sites-OMR-HU-Site/hu_HU/GiftCert-ShowMiniCart","addProduct":"/on/demandware.store/Sites-OMR-HU-Site/hu_HU/Cart-AddProduct","minicart":"/on/demandware.store/Sites-OMR-HU-Site/hu_HU/Cart-MiniAddProduct","cartShow":"/hu/cart","giftRegAdd":"https://www.omron-healthcare.hu/on/demandware.store/Sites-OMR-HU-Site/hu_HU/Address-GetAddressDetails?addressID=","paymentsList":"https://www.omron-healthcare.hu/on/demandware.store/Sites-OMR-HU-Site/hu_HU/PaymentInstruments-List","addressesList":"https://www.omron-healthcare.hu/hu/cimlista","wishlistAddress":"https://www.omron-healthcare.hu/on/demandware.store/Sites-OMR-HU-Site/hu_HU/Wishlist-SetShippingAddress","deleteAddress":"/on/demandware.store/Sites-OMR-HU-Site/hu_HU/Address-Delete","getProductUrl":"/on/demandware.store/Sites-OMR-HU-Site/hu_HU/Product-Show","getBonusProducts":"/on/demandware.store/Sites-OMR-HU-Site/hu_HU/Product-GetBonusProducts","addBonusProduct":"/on/demandware.store/Sites-OMR-HU-Site/hu_HU/Cart-AddBonusProduct","getSetItem":"/on/demandware.store/Sites-OMR-HU-Site/hu_HU/Product-GetSetItem","productDetail":"/on/demandware.store/Sites-OMR-HU-Site/hu_HU/Product-Detail","getAvailability":"/on/demandware.store/Sites-OMR-HU-Site/hu_HU/Product-GetAvailability","removeImg":"/on/demandware.static/Sites-OMR-HU-Site/-/hu_HU/v1608626381145/images/icon_remove.gif","searchsuggest":"/on/demandware.store/Sites-OMR-HU-Site/hu_HU/Search-GetSuggestions","productNav":"/on/demandware.store/Sites-OMR-HU-Site/hu_HU/Product-Productnav","summaryRefreshURL":"/on/demandware.store/Sites-OMR-HU-Site/hu_HU/Checkout-UpdateSummary","compareShow":"/hu/product-comparison","compareAdd":"/on/demandware.store/Sites-OMR-HU-Site/hu_HU/Compare-AddProduct","compareRemove":"/on/demandware.store/Sites-OMR-HU-Site/hu_HU/Compare-RemoveProduct","compareEmptyImage":"/on/demandware.static/Sites-OMR-HU-Site/-/hu_HU/v1608626381145/images/comparewidgetempty.png","giftCardCheckBalance":"https://www.omron-healthcare.hu/on/demandware.store/Sites-OMR-HU-Site/hu_HU/COBilling-GetGiftCertificateBalance","redeemGiftCert":"https://www.omron-healthcare.hu/on/demandware.store/Sites-OMR-HU-Site/hu_HU/COBilling-RedeemGiftCertificateJson","addCoupon":"https://www.omron-healthcare.hu/on/demandware.store/Sites-OMR-HU-Site/hu_HU/Cart-AddCouponJson","deleteCoupon":"https://www.omron-healthcare.hu/on/demandware.store/Sites-OMR-HU-Site/hu_HU/Cart-DeleteCouponJson","storesInventory":"/on/demandware.store/Sites-OMR-HU-Site/hu_HU/StoreInventory-Inventory","setPreferredStore":"/on/demandware.store/Sites-OMR-HU-Site/hu_HU/StoreInventory-SetPreferredStore","getPreferredStore":"/on/demandware.store/Sites-OMR-HU-Site/hu_HU/StoreInventory-GetPreferredStore","setStorePickup":"/on/demandware.store/Sites-OMR-HU-Site/hu_HU/StoreInventory-SetStore","setZipCode":"/on/demandware.store/Sites-OMR-HU-Site/hu_HU/StoreInventory-SetZipCode","getZipCode":"/on/demandware.store/Sites-OMR-HU-Site/hu_HU/StoreInventory-GetZipCode","billing":"/on/demandware.store/Sites-OMR-HU-Site/hu_HU/COBilling-Start","setSessionCurrency":"/on/demandware.store/Sites-OMR-HU-Site/hu_HU/Currency-SetSessionCurrency","addEditAddress":"/on/demandware.store/Sites-OMR-HU-Site/hu_HU/COShippingMultiple-AddEditAddressJSON","cookieHint":"/hu/cookies/cookie_hint.html?format=ajax","consentTracking":"/on/demandware.store/Sites-OMR-HU-Site/hu_HU/Page-Show?cid=consent_tracking_hint","consentTrackingSetSession":"/on/demandware.store/Sites-OMR-HU-Site/hu_HU/Account-ConsentTracking","rateLimiterReset":"/on/demandware.store/Sites-OMR-HU-Site/hu_HU/RateLimiter-HideCaptcha","csrffailed":"/on/demandware.store/Sites-OMR-HU-Site/hu_HU/CSRF-Failed","hostedTokenizationPage":"https://www.omron-healthcare.hu/on/demandware.store/Sites-OMR-HU-Site/hu_HU/Ingenico-HostedTokenizationPage","hostedTokenizationSucces":"https://www.omron-healthcare.hu/on/demandware.store/Sites-OMR-HU-Site/hu_HU/Ingenico-HostedTokenizationSucces","storesMarkers":"https://www.omron-healthcare.hu/on/demandware.store/Sites-OMR-HU-Site/hu_HU/Stores-Markers","storesGetPosition":"https://www.omron-healthcare.hu/on/demandware.store/Sites-OMR-HU-Site/hu_HU/Stores-GetPosition","reservationStart":"https://www.omron-healthcare.hu/on/demandware.store/Sites-OMR-HU-Site/hu_HU/Reservation-Start","accountUrl":"https://www.omron-healthcare.hu/hu/sajat-felhasznaloi-fiok","geoRedirectCheckUrl":"https://www.omron-healthcare.hu/on/demandware.store/Sites-OMR-HU-Site/hu_HU/GeoRedirect-Check","getOrderAvailability":"https://www.omron-healthcare.hu/on/demandware.store/Sites-OMR-HU-Site/hu_HU/Order-GetOrderAvailability","getOrderType":"https://www.omron-healthcare.hu/on/demandware.store/Sites-OMR-HU-Site/hu_HU/Order-GetOrderType","getSizeSelector":"https://www.omron-healthcare.hu/on/demandware.store/Sites-OMR-HU-Site/hu_HU/Product-GetSizeSelector","deleteAccount":"https://www.omron-healthcare.hu/on/demandware.store/Sites-OMR-HU-Site/hu_HU/Account-DeleteAccount","checkEmailExistence":"https://www.omron-healthcare.hu/on/demandware.store/Sites-OMR-HU-Site/hu_HU/Account-CheckEmailExistence","brochureDownload":"https://www.omron-healthcare.hu/on/demandware.store/Sites-OMR-HU-Site/hu_HU/Product-ShowBrochure","getMarketplaceDialog":"https://www.omron-healthcare.hu/on/demandware.store/Sites-OMR-HU-Site/hu_HU/Product-GetMarketplaceDialog"};
+window.SitePreferences = {"LISTING_INFINITE_SCROLL":false,"LISTING_REFINE_SORT":true,"STORE_PICKUP":null,"COOKIE_HINT":true,"CONSENT_TRACKING_HINT":false,"CHECK_TLS":null,"ENABLE_INGENICO":false,"GOOGLEMAP_APIKEY":"AIzaSyAAkp-hVBq3o1m0pDMnhVcmY4PlRCaYDs8","COMPANY_FISCAL_REGEX":"^[A-Za-z0-9]{13}$","PRIVATE_FISCAL_REGEX":"^[a-zA-Z]{6}[0-9]{2}[abcdehlmprstABCDEHLMPRST]{1}[0-9]{2}([a-zA-Z]{1}[0-9]{3})[a-zA-Z]{1}$"};
+window.LocaleSettings = {"supportedCountries":{"BE":{"countryCode":"BE","locales":["en_BE","fr_BE","nl_BE"],"defaultLocale":"fr_BE","siteId":"OMR-BE"},"BG":{"countryCode":"BG","locales":["bg_BG","en_BG"],"defaultLocale":"bg_BG","siteId":"OMR-BG"},"CH":{"countryCode":"CH","locales":["en_CH","fr_CH","de_CH","it_CH"],"defaultLocale":"de_CH","siteId":"OMR-CH"},"DE":{"countryCode":"DE","locales":["de_DE","en_DE"],"defaultLocale":"de_DE","siteId":"OMR-DE"},"ES":{"countryCode":"ES","locales":["en_ES","es_ES"],"defaultLocale":"es_ES","siteId":"OMR-ES"},"EU":{"countryCode":"EU","locales":["en_GB"],"defaultLocale":"en_GB","siteId":"OMR-EU"},"FI":{"countryCode":"FI","locales":["en_FI","fi_FI"],"defaultLocale":"fi_FI","siteId":"OMR-FI"},"FR":{"countryCode":"FR","locales":["en_FR","fr_FR"],"defaultLocale":"fr_FR","siteId":"OMR-FR"},"GB":{"countryCode":"GB","locales":["en_GB"],"defaultLocale":"en_GB","siteId":"OMR-GB"},"IT":{"countryCode":"IT","locales":["it_IT","en_IT"],"defaultLocale":"it_IT","siteId":"OMR-IT"},"HU":{"countryCode":"HU","locales":["en_HU","hu_HU"],"defaultLocale":"hu_HU","siteId":"OMR-HU"},"NG":{"countryCode":"NG","locales":["en_NG"],"defaultLocale":"en_NG","siteId":"OMR-NG"},"NL":{"countryCode":"NL","locales":["nl_NL","en_NL"],"defaultLocale":"nl_NL","siteId":"OMR-NL"},"PL":{"countryCode":"PL","locales":["en_PL","pl_PL"],"defaultLocale":"pl_PL","siteId":"OMR-PL"},"PT":{"countryCode":"PT","locales":["en_PT","pt_PT"],"defaultLocale":"pt_PT","siteId":"OMR-PT"},"RO":{"countryCode":"RO","locales":["en_RO","ro_RO"],"defaultLocale":"ro_RO","siteId":"OMR-RO"},"TR":{"countryCode":"TR","locales":["en_TR","tr_TR"],"defaultLocale":"tr_TR","siteId":"OMR-TR"},"ZA":{"countryCode":"ZA","locales":["en_ZA"],"defaultLocale":"en_ZA","siteId":"OMR-ZA"}},"currentLocale":"hu_HU","currentCountryCode":"HU"};
+window.ABTests = [];
+}());
+</script>
+<script>
+
+(function(){
+window.SessionAttributes = {"SHOW_CAPTCHA":null};
+window.User = {"zip":null,"storeId":null};
+}());
+</script>
+<script>var consent = null;</script>
+<script src="js/app.js"></script>
+
+<script>pageContext = {"title":"Product Search Results","type":"search","ns":"search"};</script>
+<script>
+var meta = "";
+var keywords = "";
+</script>
+
+
+
+
+
+
+
+    <script id="Cookiebot" src="js/uc.js" data-cbid="12fadae3-cf14-4842-b1c3-bc23ff652745" data-blockingmode="auto"></script>
+
+
+
+
+
+
+
+
+</div>
+<!-- Demandware Analytics code 1.0 (body_end-analytics-tracking-asynch.js) -->
+<script type="text/javascript">//<!--
+/* <![CDATA[ */
+function trackPage() {
+    try{
+        var trackingUrl = "https://www.omron-healthcare.hu/on/demandware.store/Sites-OMR-HU-Site/hu_HU/__Analytics-Start";
+        var dwAnalytics = dw.__dwAnalytics.getTracker(trackingUrl);
+        if (typeof dw.ac == "undefined") {
+            dwAnalytics.trackPageView();
+        } else {
+            dw.ac.setDWAnalytics(dwAnalytics);
+        }
+    }catch(err) {};
+}
+/* ]]> */
+// -->
+</script>
+<script type="text/javascript" src="js/dwanalytics-20.5.1.js" async="async" onload="trackPage()"></script>
+<!-- Demandware Active Data (body_end-active_data.js) -->
+<script src="js/dwac-20.3.js" type="text/javascript" async="async"></script><!-- CQuotient Activity Tracking (body_end-cquotient.js) -->
+<script src="js/gretel.min.js" type="text/javascript" async="async"></script>
+</body>
+</html>
+
+
+
+
+<script type="application/ld+json">
+{
+"@context":"http://schema.org",
+"@type":"ItemList",
+"itemListElement": [{"@type":"ListItem","position":1,"url":"https://www.omron-healthcare.hu/hu/fajdalomcsillapito-tartozekok/Long_life_Pads.html"},{"@type":"ListItem","position":2,"url":"https://www.omron-healthcare.hu/hu/fajdalomcsillapito-tartozekok/Long_life_Pads_01.html"},{"@type":"ListItem","position":3,"url":"https://www.omron-healthcare.hu/hu/vernyomasmero-tartozekok/Intelli_Wrap_Cuff.html"},{"@type":"ListItem","position":4,"url":"https://www.omron-healthcare.hu/hu/vernyomasmero-tartozekok/Wide_Range_Cuff.html"},{"@type":"ListItem","position":5,"url":"https://www.omron-healthcare.hu/hu/vernyomasmero-tartozekok/Small_Cuff.html"},{"@type":"ListItem","position":6,"url":"https://www.omron-healthcare.hu/hu/inhalator-tartozekok/C30_Nebuliser_Air_Filters.html"},{"@type":"ListItem","position":7,"url":"https://www.omron-healthcare.hu/hu/homero-tartozekok/Gentle_Temp_Probe_Covers_40.html"},{"@type":"ListItem","position":8,"url":"https://www.omron-healthcare.hu/hu/vernyomasmero-tartozekok/Easy_Cuff.html"},{"@type":"ListItem","position":9,"url":"https://www.omron-healthcare.hu/hu/vernyomasmero-tartozekok/Medium_Cuff.html"},{"@type":"ListItem","position":10,"url":"https://www.omron-healthcare.hu/hu/vernyomasmero-tartozekok/AC_Adapter_S_for_BPM_2.html"}]
+}
+</script>
+
